@@ -1,0 +1,2143 @@
+[
+  {
+    "slug": "chapter-1-evolution-the-themes-of-biology-and-scientific-inquiry",
+    "title": "Chapter 1: Evolution, the Themes of Biology, and Scientific Inquiry",
+    "description": "Chapter 1 of Campbell Biology: Evolution, the Themes of Biology, and Scientific Inquiry",
+    "order": 1,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Biology is the scientific study of life. The scope of biology is vast—from the molecular machinery inside cells to the global interactions of ecosystems. As you explore biology, you will discover unifying themes that connect the diverse forms of life on Earth. This chapter introduces these themes and shows how biologists use scientific inquiry to understand the natural world.\n\n## What Makes Something Alive?\n\nAll living organisms share certain characteristics that distinguish them from nonliving matter:\n\n- **Organization**: Life is organized in a hierarchy, from molecules to cells, tissues, organs, and entire organisms.\n- **Information**: Living things store and use genetic information encoded in DNA.\n- **Energy and Matter**: Organisms acquire and use energy to maintain their complex organization.\n- **Interactions**: Living things interact with their environment and with each other.\n- **Evolution**: All life on Earth is connected through evolution—the process of change over time.\n\n## The Central Role of DNA\n\nDNA (deoxyribonucleic acid) is the molecule that carries genetic information in all living organisms. As Campbell Biology states, genetic information is encoded in specific sequences of the four types of nucleotides—abbreviated A, T, C, and G. These geometric shapes and letters are simple symbols for the nucleotides in a small section of one strand of a DNA molecule.\n\nProtein-encoding genes control protein production indirectly, using a related molecule called RNA as an intermediary. The sequence of nucleotides along a gene is transcribed into mRNA, which is then translated into a linked series of protein building blocks called amino acids. Once completed, the amino acid chain forms a specific protein with a unique shape and function. The entire process by which the information in a gene directs the manufacture of a cellular product is called gene expression.\n\n## Regulation and Feedback\n\nThe key to maintaining biological organization is the ability of many biological processes to self-regulate by a mechanism called feedback. In feedback regulation, the output or product of a process regulates that very process. The most common form of regulation in living systems is negative feedback, a loop in which the response reduces the initial stimulus. As seen in the example of insulin signaling, after a meal the level of the sugar glucose in your blood rises, which stimulates cells of the pancreas to secrete insulin. Insulin, in turn, causes body cells to take up glucose and liver cells to store it, thus decreasing the blood glucose level. This eliminates the stimulus for insulin secretion, shutting off the pathway. Thus, the output of the process (insulin) negatively regulates that process.\n\nThough less common than processes regulated by negative feedback, there are also many biological processes regulated by positive feedback, in which an end product speeds up its own production.\n\n## How Scientists Study Life\n\nScience is a way of understanding the natural world through observation, experimentation, and logical reasoning. The way that researchers answer questions about the natural and physical world is often idealized as the scientific method. However, very few scientific inquiries adhere rigidly to the sequence of steps that are typically used to describe this approach. For example, a scientist may start to design an experiment, but then backtrack after realizing that more preliminary observations are necessary.\n\nBecause science only deals with natural, testable explanations for natural phenomena, it can neither support nor contradict supernatural explanations. Science and religion are not mutually exclusive or contradictory; they are simply concerned with different issues.\n\n## An Example: Mouse Coat Color\n\nConsider beach mice and inland mice—members of the same species (Peromyscus polionotus) but with different fur colors. Beach mice live on sparsely vegetated sand dunes along the coast. The light tan, dappled fur on their backs causes them to blend into their surroundings, providing camouflage. Members of the same species living about 30 km inland have dark fur on their backs, camouflaging them against the dark ground of their habitat. Scientists have studied this difference to understand how natural selection shapes populations. The researchers built hundreds of models of mice and spray-painted them to resemble either beach or inland mice, leaving coloration as the only factor that could account for the low predation rate on models camouflaged with respect to the surrounding environment.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-5.glb",
+            "title": "muscle structure",
+            "description": "3D model of muscle structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-6.glb",
+            "title": "membrane structure",
+            "description": "3D model of membrane structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-7.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-8.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-9.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-10.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-11.glb",
+            "title": "muscle form",
+            "description": "3D model of muscle form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-12.glb",
+            "title": "membrane form",
+            "description": "3D model of membrane form"
+          }
+        ]
+      },
+      {
+        "title": "Concept 1.1: The Study of Life Reveals Unifying Themes",
+        "content": "Biology is a subject of enormous scope. Consider a few examples: A single-celled bacterium, a ginkgo tree, and a humpback whale are all alive, yet they are very different. How do we know they are all alive? What do they have in common? As we explore biology, we will discover unifying themes that connect the diverse forms of life on Earth.\n\n## Theme 1: Organization\n\nLife can be studied at different levels of biological organization, from molecules to the entire living planet. This hierarchy of biological organization extends from the biosphere—all the environments on Earth that support life—down to molecules, which are clusters of atoms held together by chemical bonds.\n\nAt each level of the biological hierarchy, we find a correlation between structure and function. For example, the structure of a bird's wing is adapted for flight, and the structure of a neuron is adapted for transmitting nerve impulses. Analyzing a biological structure gives us clues about what it does and how it works.\n\n## Theme 2: Information\n\nWithin cells, structures called chromosomes contain genetic material in the form of DNA (deoxyribonucleic acid). Genetic information is encoded in specific sequences of the four types of nucleotides—abbreviated A, T, C, and G. The entire \"library\" of genetic instructions that an organism inherits is called its genome.\n\nProtein-encoding genes control protein production indirectly, using a related molecule called RNA as an intermediary. The sequence of nucleotides along a gene is transcribed into mRNA, which is then translated into a linked series of protein building blocks called amino acids. Once completed, the amino acid chain forms a specific protein with a unique shape and function. The entire process by which the information in a gene directs the manufacture of a cellular product is called gene expression.\n\n## Theme 3: Energy and Matter\n\nLife requires energy. The input of energy, primarily from the sun, and the transformation of energy from one form to another make life possible. When you eat food, your body breaks down the organic molecules in the food, releasing energy stored in the chemical bonds. This energy powers your body's activities.\n\nOrganisms are open systems that interact continuously with their environments. Both energy and matter are transferred between organisms and their surroundings. For example, plants absorb light energy from the sun and take up water and minerals from the soil. They also release oxygen into the air and take in carbon dioxide.\n\n## Theme 4: Interactions\n\nInteractions are important not only within organisms but also between organisms. Each organism interacts continuously with its environment, which includes other organisms as well as nonliving factors. The roots of a tree, for instance, interact with soil fungi in a mutually beneficial association. The tree provides the fungi with sugars, while the fungi help the tree absorb water and minerals from the soil.\n\n## Theme 5: Evolution\n\nEvolution is the process of change that has transformed life on Earth from its earliest beginnings to the vast array of organisms living today. Evolution accounts for life's unity and diversity. The many kinds of beetles, the wide variety of songbirds, and the diversity of fishes are all products of evolution. Evolution is the core theme of biology—a theme that will help explain both the unity and diversity of life.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "Concept 1.2: The Core Theme: Evolution Accounts for the Unity and Diversity of Life",
+        "content": "Evolution is the process of change that has transformed life on Earth from its earliest beginnings to the vast array of organisms living today. Evolution is the core theme of biology—a theme that will help explain both the unity and diversity of life.\n\n## Evolution: The Unifying Principle of Biology\n\nEvolution makes sense of everything we know about living organisms. Organisms living on Earth today are modified descendants of common ancestors. Just as you have a family tree that traces your ancestry back through many generations, all of life can be viewed as a family tree extending back through time. This tree of life is called a phylogeny.\n\n## Unity in the Diversity of Life\n\nAs diverse as life is, there is also evidence of remarkable unity. For example, the universal genetic language of DNA unites all forms of life. This common genetic language is evidence that all life is related. The unity of life is also evident in many features of cell structure. For example, all cells are enclosed by a membrane that regulates the passage of materials between the cell and its surroundings.\n\n## Diversity Through Evolution\n\nHow does evolution account for both the unity and diversity of life? The answer lies in descent with modification. As populations of organisms adapted to different environments over millions of years, they accumulated diverse modifications, or adaptations, that fit them to specific ways of life. Yet, even as lineages have diverged, they have retained fundamental similarities inherited from their common ancestors.\n\n## Classifying the Diversity of Life\n\nTo make sense of the diversity of life, biologists classify organisms into groups. The largest, most inclusive group is a domain. There are three domains: Bacteria, Archaea, and Eukarya. The first two domains, Bacteria and Archaea, consist of prokaryotes—organisms whose cells lack a nucleus. The third domain, Eukarya, includes all eukaryotes—organisms whose cells contain a nucleus.\n\nThe domain Eukarya includes three smaller groups called kingdoms: Plantae (plants), Fungi (fungi), and Animalia (animals). These kingdoms consist mostly of multicellular eukaryotes. The domain Eukarya also includes various groups of mostly unicellular eukaryotes, collectively called protists.\n\n## Charles Darwin and the Theory of Natural Selection\n\nIn 1859, Charles Darwin published On the Origin of Species by Means of Natural Selection. Darwin's book articulated two main points. First, contemporary species arose from a succession of ancestors that differed from them. Darwin called this evolutionary change \"descent with modification.\" Second, he proposed a mechanism for descent with modification: natural selection.\n\nDarwin's theory of evolution by natural selection can be summarized as follows:\n\n1. **Variation exists** in any population of organisms.\n2. **Some variations are heritable**—they can be passed from parents to offspring.\n3. **More offspring are produced** than can survive and reproduce.\n4. **Individuals with heritable traits** that are best suited to their environment are more likely to survive and reproduce.\n5. **Over time**, favorable traits accumulate in the population.\n\nNatural selection is a process in which individuals that have certain inherited traits tend to survive and reproduce at higher rates than other individuals because of those traits. In this way, natural selection can cause evolution to occur—an evolutionary change in which the genetic composition of a population changes over time.\n\n## The Tree of Life\n\nBiologists often represent evolutionary relationships in the form of a branching diagram called a phylogenetic tree. Like a family tree, a phylogenetic tree represents patterns of descent, not phenotypic similarity. The branches of a phylogenetic tree can be rotated around a branch point without changing the information the tree conveys.\n\nAll of life is connected through evolution. The tree of life shows that all organisms share a common ancestor. As we trace the tree of life backward in time, the branches converge, ultimately connecting all life to a single common ancestor that lived billions of years ago.",
+        "models": [
+          {
+            "path": "/models/phylogenetic-tree.glb",
+            "title": "Phylogenetic Tree",
+            "description": "3D visualization of evolutionary relationships and common ancestry"
+          },
+          {
+            "path": "/models/dna-double-helix.glb",
+            "title": "DNA Double Helix Structure",
+            "description": "3D model showing the double helix structure of DNA with base pairs (A-T, G-C)"
+          }
+        ]
+      },
+      {
+        "title": "Concept 1.3: In Studying Nature, Scientists Form and Test Hypotheses",
+        "content": "Our innate curiosity often stimulates us to pose questions about the natural basis for the phenomena we observe in the world. What caused the different chimpanzee behaviors observed in the wild? What explains the variation in coat color among the mice of a single species? Answering such questions usually involves forming and testing logical explanations—that is, hypotheses.\n\n## Exploration and Observation\n\nScientific inquiry begins with observations about the natural world. Observations can be made with the unaided eye or with tools such as microscopes, telescopes, or sensors that extend our senses. Recorded observations are called data. Data can be qualitative (descriptions rather than measurements) or quantitative (recorded measurements, which are sometimes organized into tables and graphs).\n\n## Gathering and Analyzing Data\n\nScientists use a variety of tools to gather and analyze data. Technology, such as microscopes, DNA sequencers, and computers, has greatly expanded our ability to observe and measure. Scientists analyze their data using statistical tests to determine whether the results are significant—that is, whether the results are likely due to chance or to a real effect.\n\n## Forming and Testing Hypotheses\n\nIn science, a hypothesis is an explanation, based on observations and assumptions, that leads to a testable prediction. A hypothesis must be testable and falsifiable—that is, there must be some way to check whether it is false. A hypothesis can be supported or rejected, but it can never be proven true beyond all doubt.\n\nOnce a hypothesis is formed, scientists make predictions—logical consequences of the hypothesis. For example, if a hypothesis states that a certain nutrient increases plant growth, a prediction might be that plants given this nutrient will grow taller than plants not given the nutrient.\n\nScientists test hypotheses by carrying out experiments or by making further observations. In an experiment, scientists typically test the effect of one variable by comparing an experimental group with a control group. Ideally, the experimental and control groups differ only in the one factor the experiment is designed to test.\n\n## The Flexibility of the Scientific Process\n\nThe way that researchers answer questions about the natural and physical world is often idealized as the scientific method. However, very few scientific inquiries adhere rigidly to the sequence of steps that are typically used to describe this approach. For example, a scientist may start to design an experiment, but then backtrack after realizing that more preliminary observations are necessary.\n\nScientific inquiry is an iterative process—scientists often repeat steps, revise their hypotheses, and design new experiments based on what they learn. The process is flexible and creative, not a rigid set of rules.\n\n## A Case Study in Scientific Inquiry: Investigating Coat Coloration in Mouse Populations\n\nTo illustrate scientific inquiry in action, consider research on coat coloration in mouse populations. Beach mice (Peromyscus polionotus) living on sparsely vegetated sand dunes along the coast have light tan, dappled fur that helps them blend into their surroundings. Members of the same species living about 30 km inland have dark fur that matches their darker habitat.\n\nScientists hypothesized that natural selection favors mice whose coloration matches their environment, providing camouflage from predators. To test this hypothesis, researchers built hundreds of models of mice and spray-painted them to resemble either beach or inland mice. They placed these models in both beach and inland habitats and monitored predation rates.\n\nThe results showed that models that matched their environment (light models on beaches, dark models inland) had lower predation rates than mismatched models. This supported the hypothesis that coloration provides a survival advantage through camouflage.\n\n## Variables and Controls in Experiments\n\nIn a controlled experiment, scientists typically test the effect of one variable by comparing an experimental group with a control group. The experimental group is exposed to the variable being tested, while the control group is not. Ideally, the experimental and control groups differ only in the one factor the experiment is designed to test.\n\nFor example, in testing the effect of a fertilizer on plant growth, the experimental group would receive the fertilizer, while the control group would not. Both groups would be grown under identical conditions (same soil, water, light, temperature) except for the presence or absence of the fertilizer.\n\n## Theories in Science\n\nIn everyday conversation, \"theory\" often means a hunch or a speculation. In science, however, a theory is much broader in scope than a hypothesis. A scientific theory is a comprehensive explanation of some aspect of nature that is supported by a vast body of evidence. Theories are not guesses—they are well-supported explanations that have been tested repeatedly and have not been contradicted.\n\nFor example, the theory of evolution by natural selection is supported by evidence from many fields, including genetics, paleontology, and comparative anatomy. Scientific theories can be modified or even rejected if new evidence contradicts them, but they represent our best current understanding of how nature works.",
+        "models": [
+          {
+            "path": "/models/phylogenetic-tree.glb",
+            "title": "Phylogenetic Tree",
+            "description": "3D visualization of evolutionary relationships"
+          }
+        ]
+      },
+      {
+        "title": "Concept 1.4: Science Benefits from a Cooperative Approach and Diverse Viewpoints",
+        "content": "Science is a social activity. Scientists build on the work of others, share their findings with the scientific community, and benefit from diverse viewpoints. This collaborative and inclusive approach strengthens scientific inquiry and leads to more robust discoveries.\n\n## Building on the Work of Others\n\nScience is cumulative. Scientists build on the work of previous researchers, extending and refining our understanding of the natural world. When scientists publish their research in scientific journals, they provide detailed descriptions of their methods and results, allowing other scientists to evaluate, replicate, and build upon their work.\n\nThe scientific community evaluates new findings through peer review—a process in which experts in the field review research before it is published. This process helps ensure that published research meets high standards of quality and reliability.\n\nScientific knowledge advances through the collective efforts of many researchers working in laboratories and field sites around the world. Major breakthroughs often result from the integration of findings from multiple studies and different fields of research.\n\n## Science, Technology, and Society\n\nScience and technology are closely related but distinct. Science seeks to understand the natural world through observation and experimentation. Technology applies scientific knowledge for specific purposes, such as developing new medicines, creating more efficient energy sources, or improving agricultural practices.\n\nThe relationship between science and technology is bidirectional. Scientific discoveries can lead to new technologies, and new technologies can enable new scientific discoveries. For example, the development of DNA sequencing technology has revolutionized our ability to study genetics and evolution.\n\nScience and technology have profound impacts on society. Medical advances have extended human life expectancy. Agricultural innovations have increased food production. Communication technologies have transformed how we share information. However, scientific and technological advances also raise ethical questions that society must address.\n\n## The Value of Diverse Viewpoints in Science\n\nMany of the technological innovations with the most profound impact on human society originated in settlements along trade routes, where a rich mix of different cultures ignited new ideas. For example, the printing press, which helped spread knowledge to all social classes, was invented by the German Johannes Gutenberg around 1440. This invention relied on several innovations from China, including paper and ink.\n\nSimilarly, science benefits from a diversity of backgrounds and viewpoints among its practitioners. Different perspectives can lead to new questions, innovative approaches, and creative solutions to scientific problems. A diverse scientific community is better equipped to address the complex challenges facing our world.\n\nHistorically, women, people of color, and other underrepresented groups have faced significant obstacles in pursuing careers in science. Over the past 50 years, changing attitudes have increased the proportion of women in biology and some other sciences, so that now women constitute roughly half of undergraduate biology majors and biology Ph.D. students. However, progress has been slower at higher levels in the profession, and many groups are still significantly underrepresented in many branches of science and technology.\n\nThis lack of diversity hampers the progress of science. The more voices that are heard at the table, the more robust, valuable, and productive the scientific interchange will be. Science benefits when it includes the perspectives and contributions of people from all backgrounds.",
+        "models": []
+      }
+    ]
+  },
+  {
+    "slug": "chapter-2-the-chemical-context-of-life",
+    "title": "Chapter 2: The Chemical Context of Life",
+    "description": "Chapter 2 of Campbell Biology: The Chemical Context of Life",
+    "order": 2,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Matter consists of chemical elements in pure form and in combinations called compounds. Organisms are composed of matter, which is anything that takes up space and has mass. Matter is made up of elements, substances that cannot be broken down to other substances by chemical reactions. A compound is a substance consisting of two or more different elements combined in a fixed ratio.\n\nUnderstanding the chemical context of life is essential for biology. The properties of life emerge from the properties of matter. For example, the structure of an atom determines how it interacts with other atoms, which in turn determines the structure and function of molecules, which determine the structure and function of cells, and so on up the hierarchy of biological organization.\n\nThis chapter explores the chemical foundation of life, beginning with the structure of atoms and how they combine to form molecules and compounds. We will examine how the properties of elements depend on the structure of their atoms, how chemical bonds form between atoms, and how chemical reactions make and break these bonds.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-5.glb",
+            "title": "membrane structure",
+            "description": "3D model of membrane structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-6.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-7.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-8.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-9.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-10.glb",
+            "title": "membrane form",
+            "description": "3D model of membrane form"
+          }
+        ]
+      },
+      {
+        "title": "Concept 2.1: Matter Consists of Chemical Elements in Pure Form and in Combinations Called Compounds",
+        "content": "Matter is anything that takes up space and has mass. All matter, including the matter that makes up living organisms, consists of chemical elements. An element is a substance that cannot be broken down to other substances by chemical reactions. Today, chemists recognize 92 elements occurring in nature; a few more have been made in the laboratory.\n\n## Elements and Compounds\n\nA compound is a substance consisting of two or more different elements combined in a fixed ratio. Table salt, for example, is a compound with the chemical formula NaCl—sodium (Na) and chlorine (Cl) in a 1:1 ratio. A compound has characteristics different from those of its elements. Sodium is a metal, and chlorine is a poisonous gas. When they combine, they form an edible compound essential to many organisms.\n\n## The Elements of Life\n\nOf the 92 natural elements, about 20–25% are essential elements, elements that an organism needs to live a healthy life and reproduce. Just four elements—oxygen (O), carbon (C), hydrogen (H), and nitrogen (N)—make up about 96% of living matter. Calcium (Ca), phosphorus (P), potassium (K), sulfur (S), and a few other elements account for most of the remaining 4% of an organism's mass.\n\nSome elements are required by an organism in only minute quantities; these are called trace elements. For example, iron (Fe) is a trace element required by all forms of life. In vertebrates, iron is a component of hemoglobin, the protein that transports oxygen in the blood. An iron deficiency in the diet prevents the synthesis of hemoglobin, leading to anemia.\n\n## Case Study: Evolution of Tolerance to Toxic Elements\n\nSome naturally occurring elements can be toxic. For example, some naturally occurring areas have high levels of the element selenium. Some plants have evolved tolerance to high selenium levels and can accumulate selenium in their tissues. When these plants die and decompose, selenium enters the soil, making it available to other plants. This case study illustrates how organisms can adapt to their chemical environment through evolution.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          }
+        ]
+      },
+      {
+        "title": "Concept 2.2: An Element's Properties Depend on the Structure of Its Atoms",
+        "content": "Each element consists of a certain kind of atom that is different from the atoms of other elements. An atom is the smallest unit of matter that still retains the properties of an element. Atoms are so small that it would take about a million of them to stretch across the period printed at the end of this sentence.\n\n## Subatomic Particles\n\nAtoms are composed of even smaller parts called subatomic particles. Relevant to biology, there are three kinds of subatomic particles: neutrons, protons, and electrons. Neutrons and protons form the atomic nucleus. The electrons form a cloud around the nucleus.\n\nNeutrons and protons have almost identical mass, about 1.7 × 10⁻²⁴ gram. The mass of an electron is only about 1/2000 that of a neutron or proton, so electrons are not included when determining the total mass of an atom.\n\n## Atomic Number and Atomic Mass\n\nAll atoms of a particular element have the same number of protons in their nuclei. This number of protons, which is unique to that element, is called the atomic number and is written as a subscript to the left of the symbol for the element. For example, ₂He means that an atom of helium has 2 protons in its nucleus.\n\nThe mass number is the sum of protons plus neutrons in the nucleus of an atom. The mass number is written as a superscript to the left of an element's symbol. For example, ⁴₂He means that a helium atom has 2 protons and 2 neutrons (4 - 2 = 2).\n\n## Isotopes\n\nAll atoms of a given element have the same number of protons, but some atoms of that element may differ in the number of neutrons. Two atoms of the same element that differ in the number of neutrons are called isotopes. For example, the most common isotope of carbon is ¹²C (carbon-12), which has 6 protons and 6 neutrons. Carbon-13 (¹³C) has 6 protons and 7 neutrons. Carbon-14 (¹⁴C) has 6 protons and 8 neutrons.\n\nSome isotopes are radioactive, meaning that their nuclei decay spontaneously, giving off particles and energy. Radioactive isotopes have many useful applications in biological research and medicine. For example, radioactive isotopes can be used as tracers to follow atoms through metabolic processes.\n\n## Electron Shells and Chemical Bonding\n\nThe chemical behavior of an atom depends mostly on the number of electrons in its outermost shell, called the valence shell. Atoms with incomplete valence shells can interact with certain other atoms in such a way that each partner atom completes its valence shell. These interactions usually result in atoms staying close together, held by attractions called chemical bonds.\n\nThe periodic table of the elements shows the electron distribution diagrams for the first 18 elements. In each diagram, the electrons are shown as black dots and the shells are shown as concentric circles. The elements are arranged in rows, called periods, according to how many electron shells they have. The elements are also arranged in columns, called groups, according to how many electrons they have in their valence shell.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          }
+        ]
+      },
+      {
+        "title": "Concept 2.3: The Formation and Function of Molecules and Ionic Compounds Depend on Chemical Bonding Between Atoms",
+        "content": "Now that we have looked at the structure of atoms, we can move up the hierarchy of organization and see how atoms combine to form molecules and ionic compounds. Atoms with incomplete valence shells can interact with certain other atoms in such a way that each partner atom completes its valence shell: The atoms either share or transfer valence electrons. These interactions usually result in atoms staying close together, held by attractions called chemical bonds.\n\n## Covalent Bonds\n\nThe strongest kinds of chemical bonds are covalent bonds in molecules and ionic bonds in dry ionic compounds. A covalent bond is the sharing of a pair of valence electrons by two atoms. For example, two hydrogen atoms, each with a single electron, can share their electrons to form a molecule of hydrogen (H₂).\n\nIn a covalent bond, the shared electrons count as part of each atom's valence shell. A molecule consists of two or more atoms held together by covalent bonds.\n\n## Nonpolar and Polar Covalent Bonds\n\nAtoms in a molecule attract shared electrons to varying degrees, depending on the element. The attraction of a particular kind of atom for the electrons of a covalent bond is called its electronegativity. The more electronegative an atom, the more strongly it pulls shared electrons toward itself.\n\nIn a covalent bond between two atoms of the same element, the electrons are shared equally because the two atoms have the same electronegativity—the tug-of-war is at a standoff. Such a bond is called a nonpolar covalent bond. For example, the single bond of H₂ is nonpolar, as is the double bond of O₂.\n\nHowever, when an atom is bonded to a more electronegative atom, the electrons of the bond are not shared equally. This type of bond is called a polar covalent bond. Such bonds vary in their polarity, depending on the relative electronegativity of the two atoms. For example, the bonds between the oxygen and hydrogen atoms of a water molecule are quite polar. Oxygen is one of the most electronegative elements, attracting shared electrons much more strongly than hydrogen does. In a covalent bond between oxygen and hydrogen, the electrons spend more time near the oxygen nucleus than near the hydrogen nucleus.\n\nBecause electrons have a negative charge and are pulled toward oxygen in a water molecule, the oxygen atom has partial negative charges (indicated by the Greek letter δ with a minus sign, δ⁻, or \"delta minus\"), and the hydrogen atoms have partial positive charges (δ⁺, or \"delta plus\").\n\n## Ionic Bonds\n\nIn some cases, two atoms are so unequal in their attraction for valence electrons that the more electronegative atom strips an electron completely away from its partner. The two resulting oppositely charged atoms (or molecules) are called ions. A positively charged ion is called a cation, while a negatively charged ion is called an anion.\n\nBecause of their opposite charges, cations and anions attract each other; this attraction is called an ionic bond. Note that the transfer of an electron is not, by itself, the formation of a bond; rather, it allows a bond to form because it results in two ions of opposite charge. Any two ions of opposite charge can form an ionic bond.\n\nCompounds formed by ionic bonds are called ionic compounds, or salts. We know them as salts, such as sodium chloride (table salt, NaCl). In the dry state, salts do not consist of molecules. Instead, they are aggregates of cations and anions stacked in a crystal lattice. Each ion is surrounded by ions of the opposite charge.\n\n## Weak Chemical Bonds\n\nSeveral types of weak chemical bonds are important in organisms. For example, hydrogen bonds form when a hydrogen atom covalently bonded to one electronegative atom is also attracted to another electronegative atom. In living cells, the electronegative partners are usually oxygen or nitrogen atoms.\n\nVan der Waals interactions are weak attractions between molecules or parts of molecules that result from transient local partial charges. Although they are individually weak, van der Waals interactions can be important when many such interactions occur simultaneously.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "Concept 2.4: Chemical Reactions Make and Break Chemical Bonds",
+        "content": "Matter is conserved in chemical reactions. The same number of atoms of each element that entered a reaction are present when the reaction is complete. The starting materials in a chemical reaction are called reactants, and the end materials are called products.\n\n## Chemical Reactions\n\nA chemical reaction is the making and breaking of chemical bonds, leading to changes in the composition of matter. For example, we can rephrase the burning of hydrogen gas (H₂) with oxygen gas (O₂) to form water (H₂O) as a chemical reaction:\n\n2H₂ + O₂ → 2H₂O\n\nThis reaction can proceed in either direction, depending on the relative concentrations of the reactants and products. The direction in which a chemical reaction proceeds is influenced by the relative concentrations of reactants and products.\n\n## Chemical Equilibrium\n\nChemical reactions are reversible. The point at which the forward and reverse reactions occur at the same rate is called chemical equilibrium. At equilibrium, the relative concentrations of reactants and products no longer change with time. However, this does not mean that the reactants and products are equal in concentration, but rather that their concentrations have stabilized at a particular ratio.\n\nIt is important to note that reactions at equilibrium are not static. There is no net change in the relative concentrations of reactants and products, but the reactions are still proceeding. The reactions are simply proceeding in both directions at the same rate.\n\n## The Importance of Chemical Reactions in Biology\n\nAll chemical reactions within an organism are collectively called metabolism. Metabolism is the totality of an organism's chemical reactions. Metabolism is an emergent property of life that arises from orderly interactions between molecules.\n\nChemical reactions in cells are often organized into metabolic pathways, in which each step is catalyzed by a specific enzyme. Enzymes are proteins that act as catalysts, speeding up chemical reactions without being consumed by the reaction.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-3-water-and-life",
+    "title": "Chapter 3: Water and Life",
+    "description": "Chapter 3 of Campbell Biology: Water and Life",
+    "order": 3,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Water is the substance that makes life possible. All organisms are made mostly of water and live in an environment dominated by water. Water's unique properties, which emerge from its molecular structure, make it essential for life on Earth.\n\nThe polarity of water molecules results in hydrogen bonding, which gives water its remarkable properties. These properties include water's cohesive behavior, its ability to moderate temperature, its expansion upon freezing, and its versatility as a solvent. Understanding these properties helps explain why water is so important to life and how organisms have adapted to their aqueous environments.",
+        "models": [
+          {
+            "path": "/models/35-on-these-diagrams-of-plant-and-animal-cells-label-each-organelle-and-give-a-brief-section-0-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/35-on-these-diagrams-of-plant-and-animal-cells-label-each-organelle-and-give-a-brief-section-0-2.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          }
+        ]
+      },
+      {
+        "title": "Concept 3.1: Polar Covalent Bonds in Water Molecules Result in Hydrogen Bonding",
+        "content": "The water molecule, H₂O, is composed of two hydrogen atoms covalently bonded to an oxygen atom. The bonds between oxygen and hydrogen are polar covalent bonds. Because oxygen is more electronegative than hydrogen, the electrons of the covalent bonds spend more time closer to oxygen than to hydrogen. As a result, the oxygen atom has a partial negative charge (δ⁻), and each hydrogen atom has a partial positive charge (δ⁺).\n\n## Hydrogen Bonds\n\nBecause water is a polar molecule, the slightly positive hydrogen of one water molecule is attracted to the slightly negative oxygen of a nearby water molecule. The two molecules are thus held together by a hydrogen bond. Each water molecule can form hydrogen bonds with up to four neighboring water molecules.\n\nHydrogen bonds are much weaker than covalent bonds. At any given moment, most of the water molecules in liquid water are hydrogen-bonded to their neighbors, but the hydrogen bonds are constantly breaking and re-forming. The hydrogen bonds in water are about 1/20 as strong as covalent bonds, but they are strong enough to give water its unique properties.\n\n## The Structure of Water\n\nThe structure of a water molecule is roughly a tetrahedron, with the oxygen atom at the center and the two hydrogen atoms and two unshared electron pairs at the corners. This structure, along with the polarity of the O-H bonds, allows water molecules to form extensive networks of hydrogen bonds with each other.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of water molecule structure showing hydrogen bonds"
+          }
+        ]
+      },
+      {
+        "title": "Concept 3.2: Four Emergent Properties of Water Contribute to Earth's Suitability for Life",
+        "content": "Water's unique properties emerge from the hydrogen bonding between water molecules. These properties make Earth a suitable environment for life.\n\n## Cohesion\n\nCohesion is the attraction between molecules of the same kind. Water molecules have strong cohesion because of hydrogen bonding. Cohesion helps transport water against gravity in plants. When water evaporates from a leaf, hydrogen bonds cause water molecules leaving the veins to tug on molecules farther down, and the upward pull is transmitted through the water-conducting cells all the way to the roots.\n\nAdhesion, the clinging of one substance to another, also plays a role. Adhesion of water to the walls of the vessels helps counter the downward pull of gravity.\n\n## Moderation of Temperature\n\nWater moderates air temperature by absorbing heat from air that is warmer and releasing stored heat to air that is cooler. Water can absorb or release a relatively large amount of heat with only a slight change in its own temperature.\n\nWater's high specific heat is the amount of heat that must be absorbed or lost for 1 g of that substance to change its temperature by 1°C. Water's specific heat is 1 cal/g/°C. This is unusually high compared to other substances. Water's high specific heat is due to hydrogen bonding. Heat must be absorbed to break hydrogen bonds, and heat is released when hydrogen bonds form.\n\nWater's high specific heat has important biological consequences. The temperature of large bodies of water is relatively stable, which helps moderate the climate of nearby land. The high specific heat of water also helps organisms maintain relatively constant internal temperatures.\n\n## Expansion Upon Freezing\n\nWater is one of the few substances that are less dense as a solid than as a liquid. While other materials contract and become denser when they solidify, water expands. This unusual behavior is due to hydrogen bonding. At temperatures above 4°C, water behaves like other liquids, expanding as it warms and contracting as it cools. As the temperature falls from 4°C to 0°C, water begins to freeze because more and more of its molecules are moving too slowly to break hydrogen bonds.\n\nWhen water freezes, each molecule forms a stable hydrogen bond with four neighbors in a three-dimensional crystal. The hydrogen bonds keep the molecules far enough apart to make ice about 10% less dense than liquid water. Because ice is less dense than liquid water, it floats.\n\nThe expansion of water upon freezing has important consequences for life. If ice sank, all bodies of water would eventually freeze solid, making life in them impossible. During summer, only the upper portion of the ocean would thaw. Instead, when a deep body of water cools, the floating ice insulates the liquid water below, preventing it from freezing and allowing life to exist under the frozen surface.\n\n## Versatility as a Solvent\n\nA solution is a liquid that is a completely homogeneous mixture of two or more substances. The dissolving agent is called the solvent, and the substance that is dissolved is called the solute. An aqueous solution is one in which water is the solvent.\n\nWater is a versatile solvent because of the polarity of its molecules. When an ionic compound such as sodium chloride (NaCl) is placed in water, water molecules surround the individual ions, separating and shielding them from one another. The sphere of water molecules around each dissolved ion is called a hydration shell.\n\nWater can also dissolve compounds made of nonionic polar molecules. Even large polar molecules such as proteins can dissolve in water if they have ionic and polar regions on their surface.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model showing water's hydrogen bonding and cohesion"
+          }
+        ]
+      },
+      {
+        "title": "Concept 3.3: Acidic and Basic Conditions Affect Living Organisms",
+        "content": "Occasionally, a hydrogen atom participating in a hydrogen bond between two water molecules shifts from one molecule to the other. When this happens, the hydrogen atom leaves its electron behind, and what is actually transferred is a hydrogen ion (H⁺), a single proton with a charge of 1⁺. The water molecule that lost a proton is now a hydroxide ion (OH⁻), which has a charge of 1⁻. The water molecule with the extra proton is now a hydronium ion (H₃O⁺).\n\n## Acids and Bases\n\nAn acid is a substance that increases the hydrogen ion (H⁺) concentration of a solution. For example, when hydrochloric acid (HCl) is added to water, hydrogen ions dissociate from chloride ions: HCl → H⁺ + Cl⁻. By donating H⁺ to the solution, HCl is an acid.\n\nA base is a substance that reduces the hydrogen ion (H⁺) concentration of a solution. Some bases reduce H⁺ concentration directly by accepting hydrogen ions. For example, ammonia (NH₃) acts as a base when it reacts with water: NH₃ + H₂O → NH₄⁺ + OH⁻. Other bases reduce H⁺ indirectly by dissociating to form hydroxide ions, which combine with H⁺ to form water.\n\n## The pH Scale\n\nThe pH of a solution is defined as the negative logarithm (base 10) of the hydrogen ion concentration: pH = -log[H⁺]. For a neutral aqueous solution at 25°C, [H⁺] is 10⁻⁷, so pH = -log(10⁻⁷) = -(-7) = 7.\n\nThe pH scale ranges from 0 to 14. The pH of a solution declines as H⁺ concentration increases. Acidic solutions have pH values less than 7. Basic solutions have pH values greater than 7. Most biological fluids have pH values in the range of 6 to 8.\n\n## Buffers\n\nThe internal pH of most living cells must remain close to pH 7. Buffers are substances that minimize changes in the concentrations of H⁺ and OH⁻ in a solution. They do so by accepting hydrogen ions from the solution when they are in excess and donating hydrogen ions to the solution when they have been depleted.\n\nMost buffer solutions contain a weak acid and its corresponding base, which combine reversibly with hydrogen ions. The carbonic acid-bicarbonate system is an important buffer in human blood. Carbonic acid (H₂CO₃) can dissociate to yield a bicarbonate ion (HCO₃⁻) and a hydrogen ion (H⁺): H₂CO₃ ⇌ HCO₃⁻ + H⁺.\n\n## Acidification: A Threat to Water Quality\n\nHuman activities such as burning fossil fuels threaten water quality. The burning of fossil fuels releases carbon dioxide (CO₂) into the atmosphere. When CO₂ dissolves in seawater, it reacts with water to form carbonic acid: CO₂ + H₂O → H₂CO₃. This process is called ocean acidification.\n\nOcean acidification is a threat to marine ecosystems. Many marine organisms, such as corals and mollusks, build shells and skeletons from calcium carbonate (CaCO₃). As the ocean becomes more acidic, the concentration of carbonate ions (CO₃²⁻) decreases, making it more difficult for these organisms to build and maintain their calcium carbonate structures.",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-27-2.glb",
+            "title": "molecule structure",
+            "description": "3D model showing pH and acid-base reactions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-4-carbon-and-the-molecular-diversity-of-life",
+    "title": "Chapter 4: Carbon and the Molecular Diversity of Life",
+    "description": "Chapter 4 of Campbell Biology: Carbon and the Molecular Diversity of Life",
+    "order": 4,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "ills.edu Michael Cain (Units 4, 5, and 8): mlcain@nmsu.edu Peter Minorsky (Unit 6): pminorsky@mercy.edu Steven Wasserman (Unit 7): stevenw@ucsd.edu Rebecca Orr (Media): rorr@collin.edu ■■ EXPANDED! 500 animations and videos bring biology to life. These include new resources from HHMI BioInteractive that engage students in topics from CRISPR to coral reefs. ■■ Get Ready for This Chapter questions provide a quick check of student understanding of the background information needed to learn a new chapter’s content, with feedback to bolster their preparation. ■■ Vocabulary Self-Quizzes and Practice Tests at the end of each chapter provide opportunities for students to test their understanding. ■■ Links to Interviews from all editions of Campbell Biology are included in the chapter where they are most relevant. The interviews show students the human side of science by featuring diverse scientists talking about how they became interested in biology and what inspires them. For mor... Y8743_12_SE_C04_PRF.indd 5811/8/19 1:29 PM CHAPTER 4 Carbon and the Molecular Diversity of Life 59 Molecular Formula Structural Formula Ball-and-Stick Model (molecular shape in pink) Space-Filling Model C 2 H 6 C 2 H 4 CH 4 C H H HH C H H C HH H H CC H H H H (a) Methane. When a carbon atom has four single bonds to other atoms, the molecule is tetrahedral. (b) Ethane. A molecule may have more than one tetrahedral group of single-bonded atoms. (Ethane consists of two such groups.) (c) Ethene (ethylene). When two carbon atoms are joined by a double bond, all atoms attached to those carbons are in the same plane, and the molecule is flat. Molecule and Molecular Shape . Figure 4.3 The shapes of three simple organic molecules. In the carbon dioxide molecule (CO 2 ), a single carbon atom is joined to two atoms of oxygen by double covalent bonds. The structural formula for CO 2 is shown here: O“C“O Each line in a structural formula represents a pair of shared electr... urine. Again, each atom has the required number of covalent bonds. In this case, one carbon atom participates in both single and double bonds. Urea and carbon dioxide are molecules with only one carbon atom. But a carbon atom can also use one or more valence electrons to form covalent bonds to other carbon atoms, linking the atoms into chains, as shown here for C 3 H 8 : H H HH C H H C H H C Molecular Diversity Arising from Variation in Carbon Skeletons Carbon chains form the basis of most organic molecules. Carbon skeletons vary in length and may be straight, branched, or arranged in closed rings (Figure 4.5). Some car- bon chains have double bonds, which vary in number and location. Such variation in carbon chains is one important source of the molecular complexity and diversity that char - acterize living matter. In addition, the skeletons of biological molecules often include atoms of other elements, like oxygen and phosphorus; such atoms can also be bonded to car...",
+        "models": [
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/unit-1-the-chemistry-of-life-2.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          }
+        ]
+      },
+      {
+        "title": "8. VISUAL SKILLS Which of the molecules shown in question 5",
+        "content": "has an asymmetric carbon? Which carbon is asymmetric? Levels 5-6: Evaluating/Creating"
+      },
+      {
+        "title": "1. Organic chemistry is currently defined as",
+        "content": "(A) the study of compounds made only by living cells. (B) the study of carbon compounds. (C) the study of natural (as opposed to synthetic) compounds. (D) the study of hydrocarbons. 2. VISUAL SKILLS Which functional group is present in this molecule? (A) sulfhydryl (B) carboxyl (C) methyl (D) phosphate 3. MAKE CONNECTIONS Which chemical group is most likely to be responsible for an organic molecule behaving as a base (see Concept 3.3)? (A) hydroxyl (B) carbonyl (C) amino (D) phosphate Levels 3-4: Applying/Analyzing"
+      },
+      {
+        "title": "4. VISUAL SKILLS Visualize the structural formula of each of",
+        "content": "the following hydrocarbons. Which hydrocarbon has a double bond in its carbon skeleton? (A) C 3 H 8 (B) C 2 H 6 (C) C 2 H 4 (D) C 2 H 2"
+      },
+      {
+        "title": "5. VISUAL SKILLS Choose the term that correctly describes the",
+        "content": "relationship between these two sugar molecules. (A) structural isomers (B) cis-trans isomers (C) enantiomers (D) isotopes 6. VISUAL SKILLS Identify the asymmetric carbon in this molecule. OH O H H CC H H C H H C H H C H A BCD"
+      },
+      {
+        "title": "7. Which action could produce a carbonyl group?",
+        "content": "(A) the replacement of the — OH of a carboxyl group with hydrogen (B) the addition of a thiol to a hydroxyl (C) the addition of a hydroxyl to a phosphate (D) the replacement of the nitrogen of an amine with oxygen C HH C C HN H H OHO OH C OH O C C H H H H OHC C H HOH C H OH O H L-dopa D -dopa Explain how the chemical structure of the carbon atom accounts for the differences between the male and female lions seen in the photo. For selected answers, see Appendix A."
+      },
+      {
+        "title": "12. SYNTHESIZE YOUR KNOWLEDGE",
+        "content": "URRY8743_12_SE_C04_PRF.indd 6511/8/19 1:29 PM Figure 5.1 Alcohol dehydrogenase, a protein that breaks down alcohol in the body, is shown here as a molecular model. The form of this protein that an individual possesses affects how well that person tolerates drinking alcohol. Proteins are one class of large molecules, or macromolecules. Go to Mastering Biology For Students (in eText and Study Area) • Animation: Making and Breaking Polymers • Figure 5.11 Walkthrough: The Structure of a Phospholipid • BioFlix ® Animation: Gene Expression For Instruc",
+        "models": [
+          {
+            "path": "/models/chapter-4-carbon-and-the-molecular-diversity-of-life-65-section-6-1.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/chapter-4-carbon-and-the-molecular-diversity-of-life-65-section-6-2.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/chapter-4-carbon-and-the-molecular-diversity-of-life-65-section-6-3.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/chapter-4-carbon-and-the-molecular-diversity-of-life-65-section-6-4.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          }
+        ]
+      },
+      {
+        "title": "7. Which of the following pairs of base sequences could form a",
+        "content": "short stretch of a normal double helix of DNA? (A) 5r-AGCT-3r with 5r-TCGA-3r (B) 5r-GCGC-3r with 5r-TATA-3r (C) 5r-ATGC-3r with 5r-GCAT-3r (D) All of these pairs are correct."
+      },
+      {
+        "title": "8. Construct a table that organizes the following terms and label",
+        "content": "the columns and rows. Monosaccharides Fatty acids Amino acids Nucleotides Polypeptides Triacylglycerols Polynucleotides Polysaccharides Phosphodiester linkages Peptide bonds Glycosidic linkages Ester linkages 9. DRAW IT Copy the polynucleotide strand in Figure 5.23a and label the bases G, T, C, and T, starting from the 5r end. Assuming this is a DNA polynucleotide, now draw the complementary strand, using the same symbols for phosphates (circles), sugars (pentagons), and bases. Label the bases. Draw arrows showing the 5′ S 3′ direction of each strand. Use the arrows to make sure the second strand is antiparallel to the first. Hint: After you draw the first strand vertically, turn the paper upside down; it is easier to draw the second strand from the 5′ toward the 3′ direction as you go from"
+      },
+      {
+        "title": "10. EVOLUTION CONNECTION Comparisons of amino acid",
+        "content": "sequences can shed light on the evolutionary divergence of related species. If you were comparing two living species, would you expect all proteins to show the same degree of divergence? Why or why not? Justify your answer. 11. SCIENTIFIC INQUIRY Suppose you are a research assistant in a lab studying DNA-binding proteins. You have been given the amino acid sequences of all the proteins encoded by the genome of a certain species and have been asked to find candidate proteins that could bind DNA. What type of amino acids would you expect to see in the DNA-binding regions of such proteins? Explain your thinking. 12. WRITE ABOUT A THEM"
+      }
+    ]
+  },
+  {
+    "slug": "chapter-5-the-structure-and-function-of-large-biological-molecules",
+    "title": "Chapter 5: The Structure and Function of Large Biological Molecules",
+    "description": "Chapter 5 of Campbell Biology: The Structure and Function of Large Biological Molecules",
+    "order": 5,
+    "sections": [
+      {
+        "title": "14.3 When F",
+        "content": "1 hybrid pea plants self- or cross-pollinate, which traits appear in the F 2 generation? 271"
+      },
+      {
+        "title": "14.8 Do the alleles for one character segregate into",
+        "content": "gametes dependently or independently of the alleles for a different character? 276 †"
+      },
+      {
+        "title": "15.3 In a cross between a wild-type female fruit fly and",
+        "content": "a mutant white-eyed male, what color eyes will the F 1 and F 2 offspring have? 296 Visualizing Figures"
+      },
+      {
+        "title": "6.30 Cell Junctions in Animal Tissues  120",
+        "content": "Structural Models Proteins can be represented in different ways, depending on the goal of the illustration. Using",
+        "models": [
+          {
+            "path": "/models/chromosome-330-section-59-1.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/chromosome-330-section-59-2.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/chromosome-330-section-59-3.glb",
+            "title": "molecule shape",
+            "description": "3D model of molecule shape"
+          },
+          {
+            "path": "/models/chromosome-330-section-59-4.glb",
+            "title": "protein shape",
+            "description": "3D model of protein shape"
+          }
+        ]
+      },
+      {
+        "title": "47.3 Does the distribution of Ca",
+        "content": "2+ in an egg correlate with formation of the fertilization envelope? 1045"
+      },
+      {
+        "title": "47.23 How does distribution of the gray crescent affect",
+        "content": "the developmental potential of the first two daughter cells? 1061"
+      },
+      {
+        "title": "47.24 Can the dorsal lip of the blastopore induce cells in",
+        "content": "another part of the amphibian embryo to change their developmental fate? 1062"
+      },
+      {
+        "title": "47.26 What role does the zone of polarizing activity",
+        "content": "(ZPA) play in limb pattern formation in vertebrates? 1063"
+      },
+      {
+        "title": "Introduction",
+        "content": "gure 9.2 Methane combustion as an energy-yielding redox reaction. The reaction releases energy to the surroundings because the electrons lose potential energy when they end up being shared unequally, spending more time near electronegative atoms such as oxygen. VISUAL SKILLS Is the carbon atom oxidized or reduced during this reaction? Explain. Mastering Biology Animation: Redox Reactions URRY8743_12_SE_C09_PRF.indd 16611/8/19 3:51 PM CHAPTER 9 Cellular Respiration and Fermentation 167 from the substrate (glucose, in the preceding example), thereby oxidizing it. The enzyme delivers the 2 electrons along with 1 proton to its coenzyme, NAD + , forming NADH (Figure 9.3). The other proton is released as a hydrogen ion ( H + ) into the surrounding solution: HOH 1 NAD + O 1 NADH 1 H + Dehydrogenase CC By receiving 2 negatively charged electrons but only 1 posi- tively charged proton, the nicotinamide portion of NAD + has its charge neutralized when NAD + is reduce... e of heat and light energy ATP ATP ATP Free energy, G Free energy, G (from food via NADH) 2 H + 2 e – 2 H + 2 e – Controlled release of energy for synthesis of ATP + H 2 + 2 H +O 2 1 /2 H 2 O H 2 O O 2 1 /2 Electron transport chain 1 2O 2 (a) Uncontrolled reaction. The one-step exergonic reaction of hydrogen with oxygen to form water releases a large amount of energy in the form of heat and light: an explosion. (b) Cellular respiration. In cellular respiration, the same reaction occurs in stages: An electron transport chain breaks the “fall” of electrons in this reaction into a series of smaller steps and stores some of the released energy in a form that can be used to make ATP. (The rest of the energy is released as heat.) . Figure 9.4 An introduction to electron transport chains. URRY8743_12_SE_C09_PRF.indd 16811/8/19 3:51 PM CHAPTER 9 Cellular Respiration and Fermentation 169 occurs when an enzyme transfers a phosphate group from a substrate molecule to ADP, rath... piration pathways carried out by yeasts and bacteria on cacao beans is responsible for the production of chocolate. by-product rather than water. The rotten-egg odor you may have smelled while walking through a salt marsh or a mudflat signals the presence of sulfate-reducing bacteria. Fermentation is a way of harvesting chemical energy with - out using either O 2 or any electron transport chain—in other words, without cellular respiration. How can food be oxidized without cellular respiration? Remember, oxidation simply refers to the loss of electrons to an electron acceptor, so it does not need to involve O 2 . Glycolysis oxidizes glucose to two mol- ecules of pyruvate. The oxidizing agent of glycolysis is NAD + , and neither O 2 nor any electron transfer chain is involved. Overall, glycolysis is exergonic, and some of the energy made available is used to produce 2 ATP (net) by substrate-level phosphorylation. If O 2 is present, then additional ATP is made by ox...",
+        "models": [
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-167-1.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-167-2.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-167-3.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          }
+        ]
+      },
+      {
+        "title": "1. VISUAL SKILLS During the redox reaction in glycolysis (see",
+        "content": "step 6 in Figure 9.8), which one of the molecules acts as the oxidizing agent? The reducing agent? For suggested answers, see Appendix A. PYRUVATE OXIDATION CITRIC ACID CYCLE G LYCO LYS I S OXIDATIVE PHOSPHORY- L ATION CH 3 O – C CH 3 O C Coenzyme A Acetyl CoA O S-CoA CO NADH+ H + NAD + Pyruvate Transport protein 2 3 1 CO 2 CYTOSOL MITOCHONDRION Pyruvate dehydrogenase Pyruvate dehydrogenase 10 nm . Figure 9.9 Oxidation of pyruvate to acetyl CoA, the step before the citric acid cycle. Pyruvate enters the mitochondrion through a transport protein and is processed by a complex of several enzymes known as pyruvate dehydrogenase (shown in the computer-generated image",
+        "models": [
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-171-section-0-1.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-171-section-0-2.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-171-section-0-3.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/chapter-9-cellular-respiration-and-fermentation-171-section-0-4.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          }
+        ]
+      },
+      {
+        "title": "1. VISUAL SKILLS In the citric acid cycle shown in Figure 9.11,",
+        "content": "what molecules capture energy from the redox reactions? How is ATP produced?"
+      },
+      {
+        "title": "3. VISUAL SKILLS The conversions shown in Figure 9.9 and",
+        "content": "step 4 of Figure 9.11 are each catalyzed by a large multien- zyme complex. What similarities are there in the reactions that occur in these two cases? For suggested answers, see Appendix A. NADH NAD + 50 40 30 20 10 0 FMN I II III IV Fe •S Q Fe •S FAD Cyt b Complexes I-IV each consist of multiple proteins with electron carriers. NADH has"
+      },
+      {
+        "title": "8.17 Jack Dykinga/Nature Picture Library/Alamy Stock Photo; 8.22 Keith",
+        "content": "R. Porter/Science Source; p. 163 penguins Flickr/Getty Images. Chapter 9 9.1 Tierfotoagentur/Alamy Stock Photo; 9.3 Dionisvera/Fotolia; 9.9 Z. Hong Zhou, University of California, Los Angeles; Scientific Skills Exercise Thomas Kitchin & Victoria Hurst/Design Pics/Alamy Stock Photo; p. 180 cacao Aedka Stu- dio/Shutterstock; p. 186 model Medical Research Council; CoQ10 Stephen Rees/ Shutterstock. Chapter 10 10.1 tree Rolf Roeckl/mauritius images GmbH/Alamy Stock Photo; cater- pillar blickwinkel/Alamy Stock Photo; 10.2a STILLFX/Shutterstock; 10.2b NatalieJean/ Shutterstock; 10.2c M. I. Walker/Science Source; 10.2d Michael Abbey/Science Source; 10.2e Heide N. Schulz-Vogt, Leibniz Institute for Baltic Sea Research Warnemuende; 10.3 top, 10.21 Andreas Holzenburg, University of Texas Rio Grande Valley;",
+        "models": [
+          {
+            "path": "/models/chapter-9-9-1-tierfotoagentur-alamy-stock-photo-9-3-dionisvera-fotolia-9-9-z-section-1-1.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "12.3 Andrew S. Bajer, University of Oregon, Eugene; 12.4,",
+        "content": "12.5 Biophoto/Science Source; 12.7 Conly L. Rieder, Wadsworth Center, Albany, NY; 12.8 left Jane Stout and Claire Walczak, Indiana University; right Matthew J. Schibler; 12.10a Don W. Fawcett/Science Source; 12.10b B. A. Palevitz and E. H. Newcomb, Uni- versity of Wisconsin;"
+      },
+      {
+        "title": "12.20 Nature’s Geometry/Science Source; Scientific Skills Exercise Molecular Expres-",
+        "content": "sions; p. 250 Alberts Photo by Tom Kochel, courtesy of the Department of Biochem- istry and Biophysics, The University of California San Francisco. Gitschier J. (2012) “Scientist Citizen: An Interview with Bruce Alberts”. PLoS Genetics 8(5): e1002743. doi:10.1371/journal.pgen.1002743. Figure 1; p. 252 onion cells Scenics & Science/"
+      },
+      {
+        "title": "13.13 John Walsh, Micrographia.com; p. 268 bananas Randy Ploetz.",
+        "content": "Chapter 14 14.1 John Swithinbank/Agefotostock; 14.14a Maximilian Weinzierl/"
+      },
+      {
+        "title": "14.19 CNRI/Science Source; p. 293 cat Arco Images GmbH/Alamy Stock Photo;",
+        "content": "family Rene MALTETE/Gamma-Rapho/Getty Images. Chapter 15 15.1 Courtesy of Peter Lichter; 15.2 Martin Shields/Alamy Stock Photo;"
+      },
+      {
+        "title": "15.5 Andrew Syred/Science Source; 15.6b Li Jingwang/E+/Getty Images; 15.6c Kosam/",
+        "content": "Shutterstock; 15.6d Creative images/Fotolia; 15.8 Jagodka/Shutterstock; Scientific Skills Exercise Oliver911119/Shutterstock; p. 306 Orr-Weaver Maria Nemchuk; 15.15 left CNRI/Science Source; right Denys_Kuvaiev/Fotolia; p. 311 Tilghman Denise Apple- white, Office of Communications, Princeton University;"
+      },
+      {
+        "title": "15.18 Phomphan/Shutter-",
+        "content": "stock; p. 313 butterfly James K Adams. Chapter 16 16.1 4X-image/E+/Getty Images; 16.3 Oliver Meckes/Eye of Science/"
+      },
+      {
+        "title": "1. Bioinformatics includes",
+        "content": "(A) using DNA technology to clone genes. (B) using computer programs to align DNA sequences. (C) using a person’s genomic sequence to inform decisions about medical treatment. (D) amplifying DNA segments from a species’ genome."
+      },
+      {
+        "title": "2. Homeotic genes",
+        "content": "(A) encode transcription factors that control the expression of genes responsible for specific anatomical structures. (B) are found only in Drosophila and other arthropods. (C) are the only genes that contain the homeobox domain. (D) encode proteins that form anatomical structures in the fly. Levels 3-4: Applying/Analyzing",
+        "models": [
+          {
+            "path": "/models/chapter-21-genomes-and-their-evolution-465-section-1-1.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/chapter-21-genomes-and-their-evolution-465-section-1-2.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          }
+        ]
+      },
+      {
+        "title": "3. Two eukaryotic proteins have one domain in common but are",
+        "content": "otherwise very different. Which of the following processes is most likely to have contributed to this similarity? (A) gene duplication (B) alternative splicing (C) exon shuffling (D) random point mutations 4. DRAW IT Below are the amino acid sequences (using single letters; see Figure 5.14) of three short segments of the FOXP2 protein from five species. These segments contain all amino acid differences between the FOXP2 proteins of these species. Compare the amino acid sequences by answering parts (a)–(d). Chimpanzee Mouse Gorilla Human Rhesus monkey PKSSD PKSSE PKSSD PKSSD PKSSD TSSTT TSSTT TSSTT TSSNT TSSTT ... ... ... ... ... NARRD NARRD NARRD SARRD NARRD ... ... ... ... ... (a) Circle the names of any species that have identical amino acid sequences for the FOXP2 protein. (b) In the sequence for the mouse, circle any amino acid that differs from the sequence for the chimpanzee, gorilla, and rhesus monkey. Then draw a box around any amino acid that differs from the human sequence. (c) In the human sequence, underline any amino acid that differs from the sequence for the chimpanzee, gorilla, and rhesus monkey. 466 UNIT THREE Genetics (d) Primates and rodents diverged about 65 million years ago, and chimpanzees and humans diverged about 6 million years ago (see Figure 21.17). How many amino acid differences are there between the sequence for the mouse and the sequence for the chimpanzee, gorilla, and rhesus monkey? How many amino acid differences are there between the human se- quence and the sequence for the chimpanzee, gorilla, and rhesus monkey? Based solely on the numbers of amino acid differences occurring over these time periods, what might you hypothesize about the rate of evolution of the FOXP2 gene?",
+        "models": [
+          {
+            "path": "/models/chapter-21-genomes-and-their-evolution-465-section-2-1.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          }
+        ]
+      },
+      {
+        "title": "5. EVOLUTION CONNECTION Genes important in the",
+        "content": "embryonic development of animals, such as homeobox- containing genes, have been relatively well conserved during evolution; that is, they are more similar among different species than are many other genes. Explain why this is. 6. SCIENTIFIC INQUIRY The scientists mapping the SNPs in the human genome noticed that groups of SNPs tended to be inherited together, in blocks known as haplotypes, ranging in length from 5,000 to 200,000 base pairs. There are as few as four or five commonly occurring combinations of SNPs per haplotype. Integrating what you’ve learned throughout this chapter and this unit, propose an expla"
+      },
+      {
+        "title": "20.16 Data",
+        "content": "from J. B. Gurdon et al., The Developmental Capacity of Nuclei Transplanted from Keratinized Cells of Adult Frogs, Journal of Embryology and Experimental Morphology 34:93–112 (1975);",
+        "models": [
+          {
+            "path": "/models/chapter-21-21-3-simulated-screen-shots-based-on-mac-os-x-and-from-data-found-at-section-0-1.glb",
+            "title": "cell morphology",
+            "description": "3D model of cell morphology"
+          }
+        ]
+      },
+      {
+        "title": "20.21 Data from K. Takahashi et al., Induction of pluripotent stem",
+        "content": "cells from adult human fibroblasts by defined factors, Cell 131:861–872 (2007). Chapter 21 21.3 Simulated screen shots"
+      },
+      {
+        "title": "21.10 Hemoglobin Data from PDB ID 2HHB: G. Fermi, M.F. Perutz, B.",
+        "content": "Shaanan, and R. Fourme. The Crystal Structure of Human Deoxyhaemoglobin at 1.74 Å resolution. J. Mol. Biol. 175:159–174 (1984); 21.15a Drawn from data in Protein Data Bank ID 1LZ1: “Refinement of Human Lysozyme at 1.5 Å Resolution Analysis of Non- bonded and Hydrogen-bond Interactions” by P. J. Artymiuk and C. C. Blake, from Jour- nal of Molecular Biology, 1981, 152:737–762; 21.15b Drawn from data in Protein Data Bank ID 1A4V: “Structural Evidence for the Presence of a Secondary Calcium Binding Site in Human Alpha-Lactalbumin” by N. Chandra et al., from Biochemistry, 1998, 37:4767–4772; Hemoglobin in Scientific Skills Exercise PDB ID 2HHB: G. Fermi, M.F. Pe- rutz, B. Shaanan, and R. Fourme. The Crystal Structure of Human Deoxyhaemoglobin at 1.74 Å Resolution. J. Mol. Biol. 175:159–174 (1984); Scientific Skills Exercise Compiled using",
+        "models": [
+          {
+            "path": "/models/chapter-21-21-3-simulated-screen-shots-based-on-mac-os-x-and-from-data-found-at-section-2-1.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "21.18 Data from W. Shu et al., Altered ultrasonic vocalization",
+        "content": "in mice with a disruption in the Foxp2 gene, Proceedings of the National Academy of Sci- ences USA 102:9643–9648 (2005);"
+      },
+      {
+        "title": "21.19 Adapted from The Homeobox: Something Very",
+        "content": "Precious That We Share with Flies, From Egg to Adult by Peter Radetsky, © 1992. Reprinted by permission from William McGinnis;"
+      },
+      {
+        "title": "21.20 Adaptation from “Hox Genes and the",
+        "content": "Evolution of Diverse Body Plans” by Michael Akam, from Philosophical Transactions of the Royal Society B: Biological Sciences, September 29, 1995, Volume 349(1329): 313–319. Reprinted by permission from The Royal Society. Chapter 22 22.8 Artwork by Utako Kikutani (as appeared in “What Can Make a Four-Ton Mammal a Most Sensitive Beast?” by Jeheskel Shoshani, from Natural His- tory, November 1997, Volume 106(1), 36–45). Copyright © 1997 by Utako Kikutani. Reprinted with permission of the artist;"
+      },
+      {
+        "title": "22.13 Data from “Host Race Radiation in the",
+        "content": "Soapberry Bug: Natural History with the History” by Scott P. Carroll and Christin Boyd, from Evolution, 1992, Volume 46(4);"
+      },
+      {
+        "title": "22.14 Figure created by Dr. Binh Diep on request",
+        "content": "of Michael Cain. Copyright © 2011 by Binh Diep. Reprinted with permission; Scientific Skills Exercise"
+      },
+      {
+        "title": "23.12 Data from Joseph H. Camin and Paul R. Ehrlich,",
+        "content": "Natural Selection in Water Snakes (Natrix sipedon L.) on Islands in Lake Erie, Evolution 12:504–511 (1958);"
+      },
+      {
+        "title": "23.14 Based on many sources: Evolution by Douglas J. Futuyma.",
+        "content": "Sinauer Associates 2005; and Vertebrate Paleontology and Evolution by Robert L. Carroll. W.H. Freeman & Co., 1988;"
+      },
+      {
+        "title": "23.16 Data from A. M. Welch et al., Call Duration as an",
+        "content": "Indicator of Genetic Quality in Male Gray Tree Frogs, Science 280:1928–1930 (1998);"
+      },
+      {
+        "title": "23.17 Adapted from Frequency-Dependent Natural Selection in the Handedness of",
+        "content": "Scale-Eating Cichlid Fish by Michio Hori, from Science, April 1993, Volume 260(5105); Test Your Understanding Question 7"
+      },
+      {
+        "title": "2021. Some countries, such as Denmark and Switzerland, have",
+        "content": "already banned artificially produced trans fats in foods. The major function of fats is energy storage. The hydro - carbon chains of fats are similar to gasoline molecules and just as rich in energy. A gram of fat stores more than twice as much energy as a gram of a polysaccharide, such as starch. Because plants are relatively immobile, they can function with bulky energy storage in the form of starch. (Vegetable oils are generally obtained from seeds, where more compact storage is an asset to the plant.) Animals, however, must carry their energy stores with them, so there is an advantage to hav - ing a more compact reservoir of fuel—fat. Humans and other mammals stock their long-term food reserves in adipose cells (see Figure 4.6a), which swell and shrink as fat is deposited CH 2 N(CH 3 ) 3 CH 2 O P O CH 2 O CH O CH 2 O O – C O C O + Choline Phosphate Glycerol Fatty acids Hydrophilic head Kink due to cis double bond Hydrophobic tails (a) Structural formula(b) Space-filling model(c) Phospholipid symbol Hydrophilic head Hydrophobic tails (d) Phospholipid bilayer . Figure 5.11 The structure of a phospholipid. A phospholipid has a hydrophilic (polar) head and two hydrophobic (nonpolar) tails. This particular phospholipid, called a phosphatidylcholine, has a choline attached to a phosphate group. Shown here are (a) the structural formula, (b) the space-filling model (yellow = phosphorus, blue = nitrogen), (c) the symbol for a phospholipid that will appear throughout this book, and (d) the bilayer structure formed by self- assembly of phospholipids in an aqueous environment. DRAW IT Draw an oval around the hydrophilic head of the space-filling model. Mastering Biology Figure Walkthrough Animation: Space-Filling Model of a Phospholipid URRY8743_12_SE_C05_PRF.indd 7411/6/19 5:48 AM CHAPTER 5 The Structure and Function of Large Biological Molecules 75 Proteins include a diversity of structures, resulting in a wide range of functions Nearly every dynamic function of a living being depends on proteins. In fact, the importance of proteins is underscored by their name, which comes from the Greek word proteios, meaning “first,” or “primary.” Proteins account for more than 50% of the dry mass of most cells, and they are instru - mental in almost everything organisms do. Some proteins speed up chemical reactions, while others play a role in defense, storage, transport, cellular communication, move - ment, or structural support. Figure 5.13 shows examples of proteins with these functions, which you’ll learn more about in later chapters. Life would not be possible without enzymes, most of which are proteins. Enzymatic proteins regulate metabolism by acting as catalysts, chemical agents that selectively speed up chemical reactions without being consumed in the reac - tion. Because an enzyme can perform its function over and over again, these molecules can be thought of as workhorses that keep cells running by carrying out the processes of life. A human has tens of thousands of different proteins, each with a specific structure and function; proteins, in fact, are the most structurally sophisticated molecules known. Consistent with their diverse functions, they vary extensively in structure, each type of protein having a unique three- dimensional shape. Proteins are all constructed from the same set of 20 amino acids, linked in unbranched polymers. The bond between amino acids is called a peptide bond, so a polymer of amino acids is called a polypeptide. A protein is a biologically",
+        "models": [
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-5.glb",
+            "title": "organism structure",
+            "description": "3D model of organism structure"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-6.glb",
+            "title": "cell shape",
+            "description": "3D model of cell shape"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-7.glb",
+            "title": "molecule shape",
+            "description": "3D model of molecule shape"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-8.glb",
+            "title": "protein shape",
+            "description": "3D model of protein shape"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-9.glb",
+            "title": "organ shape",
+            "description": "3D model of organ shape"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-10.glb",
+            "title": "organism shape",
+            "description": "3D model of organism shape"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-11.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-12.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-13.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-14.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/concept-42-4-because-trans-fats-are-especially-common-in-section-0-15.glb",
+            "title": "organism form",
+            "description": "3D model of organism form"
+          }
+        ]
+      },
+      {
+        "title": "1. DRAW IT In Figure 5.23a, number all the carbons of the top",
+        "content": "three nucleotides (use primes), circle the nitrogenous bases, and star the phosphates.",
+        "models": [
+          {
+            "path": "/models/dna-double-helix.glb",
+            "title": "DNA Double Helix Structure",
+            "description": "3D model showing the double helix structure of DNA with base pairs (A-T, G-C)"
+          },
+          {
+            "path": "/models/chromosome-structure.glb",
+            "title": "Chromosome Structure",
+            "description": "3D model of chromosome showing DNA packaging with histone proteins"
+          },
+          {
+            "path": "/models/protein-structure.glb",
+            "title": "Protein Structure",
+            "description": "3D model showing primary, secondary (alpha helix, beta sheet), tertiary, and quaternary protein structure"
+          },
+          {
+            "path": "/models/organic-molecules.glb",
+            "title": "Organic Molecules",
+            "description": "3D models of carbohydrates, lipids, proteins, and nucleic acids"
+          }
+        ]
+      },
+      {
+        "title": "2. DRAW IT A region along one DNA strand has this sequence",
+        "content": "of nitrogenous bases: 5r-TAGGCCT-3r. Write down its comple- mentary strand, labeling the 5r and 3r ends. For suggested answers, see Appendix A. CONCEPT 5.6 Genomics and proteomics have transformed biological inquiry and applications Experimental work in the first half of the 20th century estab- lished the role of DNA as the carrier of genetic information, passed from generation to generation, that specified the functioning of living cells and organisms. Once the structure URRY8743_12_SE_C05_PRF.indd 8611/6/19 5:48 AM CHAPTER 5 The Structure and Function of Large Biological Molecules 87 Perhaps the most significant impact of genomics and proteomics on the field of biology as a whole has been their contributions to our understanding of evolution. In addition to confirming evidence for evolution from the study of fos - sils and characteristics of currently existing species, genomics has helped us tease out relationships among different groups of organisms that had not been resolved by previous types of evidence, and thus infer evolutionary history. DNA and Proteins as Tape Measures of Evolution EVOLUTION We are accustomed to thinking of shared traits, such as hair and milk production in mammals, as evi- dence of shared ancestry. Because DNA carries heritable infor- mation in the form of genes, sequences of genes and their protein products document the hereditary background of an organism. The linear sequences of nucleotides in DNA mol - ecules are passed from parents to offspring; these sequences determine the amino acid sequences of proteins. As a result, siblings have greater similarity in their DNA and proteins than do unrelated individuals of the same species. Given our evolutionary view of life, we can extend this concept of “molecular genealogy” to relationships between species: We would expect two species that appear to be closely related",
+        "models": [
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-5.glb",
+            "title": "organism structure",
+            "description": "3D model of organism structure"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-6.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-7.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-8.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-9.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/1-draw-it-in-figure-5-23a-number-all-the-carbons-of-the-top-section-1-10.glb",
+            "title": "organism form",
+            "description": "3D model of organism form"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-6-a-tour-of-the-cell",
+    "title": "Chapter 6: A Tour of the Cell",
+    "description": "Chapter 6 of Campbell Biology: A Tour of the Cell",
+    "order": 6,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for A Tour of the Cell will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-7-membrane-structure-and-function",
+    "title": "Chapter 7: Membrane Structure and Function",
+    "description": "Chapter 7 of Campbell Biology: Membrane Structure and Function",
+    "order": 7,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "nsistent presentation of the role of perturbation in triggering a response. In Chapter 43, the introduction of the adaptive immune response has been shifted to later in the chapter, allowing students to build on the features of innate immunity before tackling the more demanding topic of the adaptive response. In Chapter 46, a new section of text in Concept 46.4 provides a clear and current introduction to “Biological Sex, Gender Identity, and Sexual Orientation in Human Sexuality.” In Chapter 48, the structural overview of neurons is now completed before the introduction of information processing. A new illustration, Figure 49.8, provides a concise visual comparison of sympathetic and parasympathetic neurons with each other and with motor neurons of the CNS. In addition, in-depth consideration of glia is now provided in Concept 49.1, where it is more logically integrated into the overview of nervous systems. At the end of the unit, an eye-catching photograph of the... an membrane proteins indicates that at least some membrane proteins move sideways within the plane of the plasma membrane.",
+        "models": [
+          {
+            "path": "/models/figure-49-8-1.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/figure-49-8-2.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/figure-49-8-3.glb",
+            "title": "organism form",
+            "description": "3D model of organism form"
+          },
+          {
+            "path": "/models/figure-49-8-4.glb",
+            "title": "muscle form",
+            "description": "3D model of muscle form"
+          }
+        ]
+      },
+      {
+        "title": "7. EVOLUTION CONNECTION Paramecium and other protists",
+        "content": "that live in hypotonic environments have cell membranes that limit water uptake, while those living in isotonic environments have membranes that are more permeable to water. Describe what water regulation adaptations might have evolved in protists in hypertonic habitats such as the Great Salt Lake and in habitats with changing salt concentration. 8. SCIENTIFIC INQUIRY An experiment is designed to study the mechanism of sucrose uptake by plant cells. Cells are immersed in a sucrose solution, and the pH of the solution is monitored. Samples of the cells are taken at intervals, and their sucrose concentration is measured. The pH is observed to decrease until it reaches a steady, slightly acidic level, and then sucrose uptake begins. (a) Evaluate these results and propose a hypothesis to explain them. (b) Predict what would happen if an inhibitor of ATP regeneration by the cell were added to the beaker once the pH was at a steady level. Explain. 9. SCIENCE, TECHNOLOGY, AND SOCIETY Extensive irrigation in arid regions causes salts to accumulate in the soil. (When water evaporates, salts that were dissolved in the water are left behind in the soil.)",
+        "models": [
+          {
+            "path": "/models/chapter-7-membrane-structure-and-function-141-section-0-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/chapter-7-membrane-structure-and-function-141-section-0-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/chapter-7-membrane-structure-and-function-141-section-0-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/chapter-7-membrane-structure-and-function-141-section-0-4.glb",
+            "title": "membrane structure",
+            "description": "3D model of membrane structure"
+          }
+        ]
+      },
+      {
+        "title": "7.6 Based on Similar Energetic Contributions of Packing in the Core",
+        "content": "of Membrane and Water-Soluble Proteins by Nathan H. Joh et al., from Journal of the American Chemical Society, Volume 131(31); Scientific Skills Exercise"
+      },
+      {
+        "title": "8.19 Data from Protein Data Bank ID 3e1f: “Direct and Indirect",
+        "content": "Roles of His-418 in Metal Binding and in the Activity of Beta-Galactosidase (E. coli)” by Douglas H. Juers et al., from Protein Science, June 2009, Volume 18(6);"
+      },
+      {
+        "title": "8.20 Data",
+        "content": "from Protein Data Bank ID 1MDYO: “Crystal Structure of MyoD bHLH Domain-DNA Complex: Perspectives on DNA Recognition and Implications for Transcriptional Activation” from Cell, May 1994, Volume 77(3);",
+        "models": [
+          {
+            "path": "/models/chapter-7-7-4-data-from-l-d-frye-and-m-edidin-the-rapid-intermixing-of-cell-section-2-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/chapter-7-7-4-data-from-l-d-frye-and-m-edidin-the-rapid-intermixing-of-cell-section-2-2.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "8.22 Small cell Adapted from Marieb,",
+        "content": "Elaine N.; Hoehn, Katja, Human Anatomy and Physiology, 8th Ed., ©2010. Printed and electronically reproduced by permission of Pearson Education, Inc., Upper Saddle River, New Jersey. Chapter 9 9.4 Adaptation of Figure 2.69 from Molecular Biology of the Cell, 4th Edi- tion, by Bruce Alberts et al. Garland Science/Taylor & Francis LLC;",
+        "models": [
+          {
+            "path": "/models/chapter-7-7-4-data-from-l-d-frye-and-m-edidin-the-rapid-intermixing-of-cell-section-3-1.glb",
+            "title": "cell anatomy",
+            "description": "3D model of cell anatomy"
+          }
+        ]
+      },
+      {
+        "title": "9.8 Figure adapted",
+        "content": "from Biochemistry, 4th Edition, by Christopher K. Mathews et al. Pearson Education, Inc.; Scientific Skills Exercise"
+      },
+      {
+        "title": "10.14 Adaptation of Figure 4.1 from Energy, Plants, and Man, by",
+        "content": "Richard Walker and David Alan Walker. © 1992 by Richard Walker and David Alan Walker. Reprinted with permission of Richard Walker; Scientific Skills Exercise"
+      },
+      {
+        "title": "12.14 Data from R. T. Johnson and",
+        "content": "P. N. Rao, Mammalian Cell Fusion: Induction of Premature Chromosome Condensa- tion in Interphase Nuclei, Nature 226:717–722 (1970); Scientific Skills Exercise"
+      },
+      {
+        "title": "15.9 Based on the data from “The Linkage of Two Factors",
+        "content": "in Drosophila That Are Not Sex-Linked” by Thomas Hunt Morgan and Clara J. Lynch, from Biological Bulletin, August 1912, Volume 23(3). Chapter 16 16.2"
+      },
+      {
+        "title": "16.4 Data from A. D. Hershey and M. Chase, In-",
+        "content": "dependent Functions of Viral Protein and Nucleic Acid in Growth of Bacteriophage, Journal of General Physiology 36:39–56 (1952); Scientific Skills Exercise",
+        "models": [
+          {
+            "path": "/models/chapter-12-12-9-data-from-g-j-gorbsky-p-j-sammak-and-g-g-borisy-chromo-section-2-1.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "16.11 Data from",
+        "content": "M. Meselson and F. W. Stahl, The Replication of DNA in Escherichia coli, Proceedings of the National Academy of Sciences USA 44:671–682 (1958). Chapter 17 17.3"
+      },
+      {
+        "title": "17.14 Adapted from Klein-Smith, Lewis",
+        "content": "J., Kish, Valerie M.; Principles of Cell and Molecular Biology. Reprinted and electronically reproduced by permissions of Pearson Education, Inc., Upper Saddle River, New Jersey;"
+      },
+      {
+        "title": "17.18 Adapted from Mathews, Christopher K.; Van Holde, Kensal E., Biochemistry,",
+        "content": "2nd ed., ©1996. Reprinted and electronically reproduced by permission of Pearson Edu- cation, Inc. Upper Saddle River, New Jersey; Scientific Skills Exercise Material provided courtesy of Dr. Thomas Schneider, National Cancer Institute, National Institutes of Health, 2012; Problem-Solving Exercise",
+        "models": [
+          {
+            "path": "/models/chapter-12-12-9-data-from-g-j-gorbsky-p-j-sammak-and-g-g-borisy-chromo-section-5-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          }
+        ]
+      },
+      {
+        "title": "18.26 Adapted from Becker, Wayne M.; Reece, Jane B.; Poe-",
+        "content": "nie, Martin F., The World of the Cell, 3rd Edition, © 1996. Reprinted and electronically reproduced by permission of Pearson Education, Inc., Upper Saddle River, New Jersey. Chapter 19 19.2"
+      },
+      {
+        "title": "1. VISUAL SKILLS Describe one similarity and two differences",
+        "content": "between the structures of tobacco mosaic virus (TMV) and influenza virus (see Figure 19.3)."
+      },
+      {
+        "title": "4. A bacterium is infected with an experimentally constructed",
+        "content": "bacteriophage composed of the T2 phage protein coat and T4 phage DNA. The new phages produced would have (A) T2 protein and T4 DNA. (B) T4 protein and T2 DNA. (C) T2 protein and T2 DNA. (D) T4 protein and T4 DNA."
+      },
+      {
+        "title": "5. RNA viruses require their own supply of certain enzymes because",
+        "content": "(A) host cells rapidly destroy the viruses. (B) host cells lack enzymes that can replicate the viral genome. (C) these enzymes translate viral mRNA into proteins. (D) these enzymes penetrate host cell membranes. 6. DRAW IT Redraw Figure 19 .8 to show the replicative cycle of a virus with a single-stranded genome that can function as mRNA (a class IV virus). Levels 5-6: Evaluating/Creating"
+      },
+      {
+        "title": "7. EVOLUTION CONNECTION The success of some viruses lies in",
+        "content": "their ability to evolve rapidly within the host. Such viruses evade the host’s defenses by mutating and producing many altered progeny viruses before the body can mount an attack. Thus, the viruses present late in infection differ from those that initially infected the body. Discuss this as an example of evolution in microcosm. Which viral lineages tend to predominate? 8. SCIENTIFIC INQUIRY When bacteria infect an animal, the number of bacteria in the body increases in an exponential fashion (graph A). After infection by a virulent animal virus with a lytic replicative cycle, there is no evidence of infection for a while. Later, however, the number of viruses rises suddenly and subsequently increases in a series of steps (graph B). Explain the difference in the curves. Time Number of bacteria A Number of viruses Time B"
+      },
+      {
+        "title": "9. WRITE ABOUT A THEME: ORGANIZATION While viruses",
+        "content": "are considered by most scientists to be nonliving, they do show some characteristics of life, including the correlation of structure and function. In a short essay (100–150 words), discuss how the structure of a virus correlates with its function. 10. SYNTHESIZE YOUR KNOWLEDGE Oseltamivir (Tamiflu), an antiviral drug prescribed for the flu, inhibits the enzyme neuraminidase. Explain how this drug could prevent infection in someone exposed to the flu or could shorten the course of flu in an infected patient (the reasons for which it is prescribed). For selected answers, see Appendix A. • Bacteria have various ways of defending themselves against phage infections, including the CRISPR-Cas system. • Many animal viruses have an envelope. Retroviruses (such as HIV) use the enzyme reverse transcriptase to copy their RNA genome into DNA, which can be integrated into the host genome as a provirus. • Since viruses can replicate only within cells, they probably evolved after the first cells appeared, perhaps as packaged frag- ments of cellular nucleic acid. ? Describe enzymes that are not found in most cells but are necessary for the replication of certain types of viruses. CONCEPT 19.3 Viruses and prions are formidable pathogens in animals and plants (pp. 408–413) • Symptoms of viral diseases may be caused by direct viral harm to cells or by the body’s immune response. Vaccines stimulate the immune system to defend the host against specific viruses. • An epidemic, a widespread outbreak of a disease, can become a pandemic, a global",
+        "models": [
+          {
+            "path": "/models/chapter-19-viruses-413-section-3-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/chapter-19-viruses-413-section-3-2.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-8-an-introduction-to-metabolism",
+    "title": "Chapter 8: An Introduction to Metabolism",
+    "description": "Chapter 8 of Campbell Biology: An Introduction to Metabolism",
+    "order": 8,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for An Introduction to Metabolism will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-9-cellular-respiration-and-fermentation",
+    "title": "Chapter 9: Cellular Respiration and Fermentation",
+    "description": "Chapter 9 of Campbell Biology: Cellular Respiration and Fermentation",
+    "order": 9,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Cellular Respiration and Fermentation will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-10-photosynthesis",
+    "title": "Chapter 10: Photosynthesis",
+    "description": "Chapter 10 of Campbell Biology: Photosynthesis",
+    "order": 10,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Photosynthesis will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-11-cell-communication",
+    "title": "Chapter 11: Cell Communication",
+    "description": "Chapter 11 of Campbell Biology: Cell Communication",
+    "order": 11,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "ll Communication 212 CONCEPT 11.1 External signals are converted to responses within the cell 213 Evolution of Cell Signaling 213 Local and Long-Distance Signaling 215 The Three Stages of Cell Signaling: A Preview 216 CONCEPT 11.2 Signal reception: A signaling molecule binds to a receptor, causing it to change shape 217 Receptors in the Plasma Membrane 217 Intracellular Receptors 220 CONCEPT 11.3 Signal transduction: Cascades of molecular interactions transmit signals from receptors to relay molecules in the cell 221 Signal Transduction Pathways 221 Protein Phosphorylation and Dephosphorylation 222 Small Molecules and Ions as Second Messengers 223 CONCEPT 11.4 Cellular response: Cell signaling leads to regulation of transcription or cytoplasmic activities 226 Nuclear and Cytoplasmic Responses 226 Regulation of the Response 226 CONCEPT 11.5 Apoptosis requires integration of multiple cell-signaling pathways 229 Apoptosis in the Soil Worm Caenorhabdit... e process or the type of information being conveyed. Structural Images Simplified Images DNA Sequences The space-filling model on the left shows the 3-D shape of the DNA double helix; the diagram on the right shows chemical details of DNA’s structure. In both images, phosphate groups are yellow, deoxyribose sugars are blue, and nitrogenous bases are shades of green and orange. When molecular detail is not necessary, DNA is portrayed in a range of simplified diagrams, depending on the focus of the figure. Genetic information is carried in DNA as a linear sequence of nucleotides that may be transcribed into mRNA and translated into a polypeptide. When focusing on the DNA sequence, each nucleotide can be represented simply as the letter of its base: A, T, C, or G. CG CG CG G AT A T A T A T C G C T G C A A C G T 5¿ 3¿ 3¿ 5¿ TA GC CG T 3¿ 3¿ 5¿ 5¿ 3¿ 5¿ 3¿ 5¿ A 5¿3¿ These flattened “ladder style” diagrams of DNA depict the sugar-phosphate backbones like the side rails of a la... scribe the basic steps of the pro - cess for E. coli, except where otherwise noted. What scientists have learned about eukaryotic DNA replication suggests, however, that most of the process is fundamentally similar for prokaryotes and eukaryotes. Getting Started The replication of chromosomal DNA begins at particular sites called origins of replication, short stretches of DNA that have a specific sequence of nucleotides. The E. coli chromo - some, like many other bacterial chromosomes, is circular and has a single origin. Proteins that initiate DNA replication recog- nize this sequence and attach to the DNA, separating the two strands and opening up a replication “bubble” (Figure 16.13a). Replication of DNA then proceeds in both directions until the entire molecule is copied. In contrast to a bacterial chromosome, a eukaryotic chromosome may have hundreds or even a few thousand replication origins. Multiple replication bubbles form and eventually fuse, thus speeding up the... inciples are the same. Most DNA polymerases require a primer and a DNA tem - plate strand, along which complementary DNA nucleotides are lined up, one by one. In E. coli, DNA polymerase III (abbre- viated DNA pol III) adds a DNA nucleotide to the RNA primer and then continues adding DNA nucleotides, which are complementary to the parental DNA template strand, to the growing end of the new DNA strand. The rate of elongation is about 500 nucleotides per second in bacteria and 50 per second in human cells. Each nucleotide to be added to a growing DNA strand consists of a sugar attached to a base and to three phosphate groups. You have already encountered such a molecule—ATP (adenosine triphosphate; see Figure 8.9). The only difference between the ATP of energy metabolism and dATP, the adenine nucleotide used to make DNA, is the sugar component, which is deoxyribose in the building block of DNA but ribose in ATP. Like ATP, the nucleotides used for DNA synthesis are chemi - cal... NA, the Double Helix Shown below is a ribbon model of DNA, with each ribbon representing one of the polynucleotide strands. The TEM shows a molecule of naked (protein-free) DNA; the double helix is 2 nm across. Histones Proteins called histones are responsi- ble for the main level of DNA packing in interphase chromatin. More than a fifth of a histone’s amino acids are positively charged (Lys or Arg) and therefore bind tightly to the negatively charged DNA. Four types of histones are most common in chromatin. The histones are very similar among eukaryotes, probably reflecting their important role in chromatin structure. Nucleosomes in a 10-nm Fiber In electron micrographs, unfolded chromatin is roughly 10 nm in diame- ter (the 10-nm fiber). Such chromatin resembles beads on a string (see the TEM). Each “bead” is a nucleosome, the basic unit of DNA packing; the “string” between beads is called linker DNA. A nucleosome consists of DNA wound twice around a prot...",
+        "models": [
+          {
+            "path": "/models/division-236-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/division-236-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/division-236-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/division-236-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/division-236-5.glb",
+            "title": "membrane structure",
+            "description": "3D model of membrane structure"
+          },
+          {
+            "path": "/models/division-236-6.glb",
+            "title": "cell shape",
+            "description": "3D model of cell shape"
+          },
+          {
+            "path": "/models/division-236-7.glb",
+            "title": "molecule shape",
+            "description": "3D model of molecule shape"
+          },
+          {
+            "path": "/models/division-236-8.glb",
+            "title": "protein shape",
+            "description": "3D model of protein shape"
+          },
+          {
+            "path": "/models/division-236-9.glb",
+            "title": "organ shape",
+            "description": "3D model of organ shape"
+          },
+          {
+            "path": "/models/division-236-10.glb",
+            "title": "membrane shape",
+            "description": "3D model of membrane shape"
+          },
+          {
+            "path": "/models/division-236-11.glb",
+            "title": "cell organization",
+            "description": "3D model of cell organization"
+          },
+          {
+            "path": "/models/division-236-12.glb",
+            "title": "molecule organization",
+            "description": "3D model of molecule organization"
+          },
+          {
+            "path": "/models/division-236-13.glb",
+            "title": "protein organization",
+            "description": "3D model of protein organization"
+          },
+          {
+            "path": "/models/division-236-14.glb",
+            "title": "organ organization",
+            "description": "3D model of organ organization"
+          },
+          {
+            "path": "/models/division-236-15.glb",
+            "title": "membrane organization",
+            "description": "3D model of membrane organization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-12-the-cell-cycle",
+    "title": "Chapter 12: The Cell Cycle",
+    "description": "Chapter 12 of Campbell Biology: The Cell Cycle",
+    "order": 12,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "ltures 428 Cloning Animals: Nuclear Transplantation 428 Stem Cells of Animals 430 CONCEPT 20.4 The practical applications of DNA-based biotechnology affect our lives in many ways 433 Medical Applications 433 Forensic Evidence and Genetic Profiles 436 Environmental Cleanup 4 37 Agricultural Applications 4 37 Safety and Ethical Questions Raised by DNA Technology 438 21 Genomes and Their Evolution 442 CONCEPT 21.1 The Human Genome Project fostered development of faster, less expensive sequencing techniques 443 CONCEPT 21.2 Scientists use bioinformatics to analyze genomes and their functions 444 Centralized Resources for Analyzing Genome Sequences 444 Identifying Protein-Coding Genes and Understanding Their Functions 445 Understanding Genes and Gene Expression at the Systems Level 446 CONCEPT 21.3 Genomes vary in size, number of genes, and gene density 448 Genome Size 448 Number of Genes 449 Gene Density and Noncoding DNA 449 CONCEPT 21.4 Mult... encoding the enzymes. If, in our example, the environment provides all the tryptophan the cell needs, the cell stops making the enzymes that catalyze the synthesis of tryptophan (Figure 18.2b). In this case, the control of enzyme production occurs at the level of transcrip - tion, the synthesis of messenger RNA from the genes that code for these enzymes. Regulation of the tryptophan synthesis pathway is just one example of how bacteria tune their metabolism to chang - ing environments. Many genes of the bacterial genome are switched on or off by changes in the metabolic status of the cell; some genes are regulated singly and others as groups of related genes. One basic mechanism for this type of regula - tion of groups of genes in bacteria, described as the operon model, was discovered in 1961 by François Jacob and Jacques Monod at the Pasteur Institute in Paris. Let’s see what an operon is and how it works. URRY8743_12_SE_C18_PRF.indd 36611/6/19 10:35 AM CHAPTER 18 ... peron are silenced (Figure 18.4a). If lactose is added to the cell’s surroundings, allolactose binds to the lac repressor and alters its shape so the repressor can no longer bind to the operator. Without the lac repressor bound, the lac operon is transcribed into mRNA, and the enzymes for using lactose are made (Figure 18.4b). In the context of gene regulation, the enzymes of the lac - tose pathway are referred to as inducible enzymes because their synthesis is induced by a chemical signal (allolactose, in this case). Analogously, the enzymes for tryptophan synthesis are said to be repressible. Repressible enzymes generally func - tion in anabolic pathways, which synthesize essential end Mastering Biology Animation: The lac Operon in E. coli URRY8743_12_SE_C18_PRF.indd 36811/6/19 10:35 AM CHAPTER 18 Regulation of Gene Expression 369 products from raw materials (precursors). By suspending pro- duction of an end product when it is already present in suffi- cient quan... ented with methyl-donating compounds, such as folic acid, led to the speckled brown fur (normal agouti phenotype) and normal weight of the mouse on the right. . Figure 18.8 Examples of epigenetic inheritance. (b) The Dutch Hunger Winter. During the Nazi blockade of food transport into the Netherlands near the end of World War II, the population was starving, including this mother and her two children. Children of mothers who were pregnant during that time have experienced long-term effects. (Figure 18.8b). Over time, doctors found that the offspring of women in early pregnancy at that time experienced adverse health effects as adults: higher rates of obesity, high triglyc - eride and cholesterol levels, type 2 diabetes, and schizophre- nia. Furthermore, the affected individuals had a 10% higher mortality rate after the age of 68 than their siblings who were in utero when food was readily available. A collabora - tion between labs in the Netherlan... erent ways. Some repressors bind directly to control element DNA (in enhancers Activation domain DNA DNA-binding domain . Figure 18.10 The structure of MyoD, a transcriptional activator. The MyoD protein is made up of two polypeptide subunits (purple and salmon) with extensive regions of α helix. Each subunit has one DNA-binding domain (lower half) and one activation domain (upper half). The latter includes binding sites for the other subunit and for other proteins. MyoD is involved in muscle development in vertebrate embryos (see Concept 18.4). VISUAL SKILLS Describe how the two functional domains of the MyoD protein relate to the two polypeptide subunits. or elsewhere), blocking activator binding. Other repressors interfere with the activator itself so it can’t bind the DNA. In addition to influencing transcription directly, some activators and repressors indirectly affect chromatin struc - ture. Studies using yeast and mammalian cells show that some activators recruit... nt. To understand how this works, we will consider two basic developmental processes. First, we’ll explore how cells that arise from early embryonic mitoses develop the differences that start each cell along its own differentiation pathway. Second, we’ll see how cellular dif - ferentiation leads to one particular cell type, using muscle development as an example. Cytoplasmic Determinants and Inductive Signals What generates the first differences among cells in an early embryo? And what controls the differentiation of all the vari- ous cell types as development proceeds? You can probably deduce the answer: The specific genes expressed in any par- ticular cell of a developing organism determine its path. Two sources of information, used to varying extents in different species, “tell” a cell which genes to express at any given time during embryonic development. One important source of information early in develop - ment is the egg’s cytoplasm, which contains both RNA and prote... the mechanisms of development, it did not reveal the specific the genes for proteins such as myosin and actin that confer the unique properties of skeletal muscle cells. The determination and differentiation of other kinds of tissues may play out in a similar fashion. Experimental results support the idea that master regulatory proteins like MyoD might function by opening the chromatin in certain regions. This allows access to transcription machinery for activation of the next set of cell-type-specific genes. Pattern Formation: Setting Up the Body Plan We have now seen how different programs of gene expression that are activated in the fertilized egg can result in differenti- ated cells and tissues. But for the tissues to function effectively in the organism as a whole, the organism’s body plan—its over- all three-dimensional arrangement—must be established and superimposed on the differentiation process. Let’s look at the molecular basis for the establishment of the body p... - tion would surely be embryonic lethals, mutations with phenotypes causing death at the embryonic or larval stage. Because organisms with embryonic lethal mutations never reproduce, they cannot be bred for study. The researchers dealt with this problem by looking for recessive mutations, which can be propagated in heterozygous flies that act as genetic carriers. Third, cytoplasmic determinants in the egg were known to play a role in axis formation, so the research - ers knew they would have to study the mother’s genes as well as those of the embryo. It is the mother’s genes that we will discuss further as we focus on how the anterior-posterior body axis is set up in the developing egg. Nüsslein-Volhard and Wieschaus began their search for segmentation genes by exposing flies to mutagenic agents and scanning their descendants for dead embryos or larvae with abnormal segmentation or other defects. For example, to find genes that might set up the anterior-posterior axis, t... Activated p53 promotes transcription of the gene for a protein that inhibits the cell cycle. The resulting suppression of cell division ensures that the damaged DNA is not replicated. If the DNA damage is irreparable, then the p53 signal leads to apoptosis. (b) Mutant cell cycle–inhibiting pathway. Mutations causing deficiencies in any pathway component can contribute to the development of cancer. . Figure 18.25 Normal and mutant cell cycle–inhibiting pathway. ? Explain whether a cancer-causing mutation in a tumor-suppressor gene, such as p53, is more likely to be a recessive or a dominant mutation. called ATM) can lead to excessive cell growth and cancer (Figure 18.25b). The p53 gene has been called the “guardian angel of the genome.” Once the p53 protein is activated—say, by the ATM protein, a protein kinase, after DNA damage—p53 activates several other genes, such as p21. The p21 protein halts the cell cycle by binding to cyclin-dependent kinases, allowing t... t effective, but new treatments are being developed. Currently, patients are treated with cytotoxic chemotherapy, which selectively kills fast-growing cells. Signaling molecule Dimer Herceptin HER2 HER3 A signaling molecule (such as a growth factor) binds as a ligand to a single HER3 (a monomer), allowing it to associ- ate with another HER. Patients with the HER2 subtype are treated with the drug Herceptin, which can bind to HER2. When bound to HER2, Herceptin blocks signaling and excessive cell division in certain patients. Even without a ligand bound, HER2 can associate with another HER. Here, HER3 and HER2 associ- ate closely together, forming a dimer. Formation of a dimer activates each monomer. Each monomer adds phosphate from ATP to the other monomer, triggering a signal transduction pathway. The signal is transduced through the cell, which leads to a cellular response—in this case, turning on genes that trigger cell division. HER2 cells have up to...",
+        "models": [
+          {
+            "path": "/models/technology-438-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/technology-438-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/technology-438-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/technology-438-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/technology-438-5.glb",
+            "title": "organism structure",
+            "description": "3D model of organism structure"
+          },
+          {
+            "path": "/models/technology-438-6.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/technology-438-7.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/technology-438-8.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/technology-438-9.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/technology-438-10.glb",
+            "title": "organism form",
+            "description": "3D model of organism form"
+          },
+          {
+            "path": "/models/technology-438-11.glb",
+            "title": "cell arrangement",
+            "description": "3D model of cell arrangement"
+          },
+          {
+            "path": "/models/technology-438-12.glb",
+            "title": "molecule arrangement",
+            "description": "3D model of molecule arrangement"
+          },
+          {
+            "path": "/models/technology-438-13.glb",
+            "title": "protein arrangement",
+            "description": "3D model of protein arrangement"
+          },
+          {
+            "path": "/models/technology-438-14.glb",
+            "title": "organ arrangement",
+            "description": "3D model of organ arrangement"
+          },
+          {
+            "path": "/models/technology-438-15.glb",
+            "title": "organism arrangement",
+            "description": "3D model of organism arrangement"
+          }
+        ]
+      },
+      {
+        "title": "1993. To learn more about the effects of climate change on cari-",
+        "content": "bou and other organisms, see Make Connections Figure 56.31. Reproductive cycles are also found among animals that can reproduce both sexually and asexually. Consider, for instance, the water flea (genus Daphnia). A female Daphnia can produce eggs of two types. One type of egg requires fertilization to develop, but the other type does not and develops instead by parthenogenesis. Daphnia reproduce asexually when environ - mental conditions are favorable and sexually during times of environmental stress. As a result, the switch between sexual and asexual reproduction is roughly linked to season. For some asexual animal species, a cycle of reproduc - tive behavior appears to reflect a sexual evolutionary past. In the parthenogenetic lizard species Aspidoscelis uniparens, reproduction is asexual, and all individuals are female. Nevertheless, these lizards have courtship and mating behav - iors very similar to those of sexual species of Aspidoscelis. One member of each mating pair undergoes ovulation, the pro- duction and release of mature eggs. The other female mimics a male (Figure 46.3a). Over the course of the breeding season, the two lizards alternate roles two or three times. An individ- ual adopts female behavior prior to ovulation, when the con- centration of the hormone estradiol is high, and then switches to male-like behavior after ovulation, when the concentration of the hormone progesterone is high (Figure 46.3b). A female is more likely to ovulate if she is mounted at a",
+        "models": [
+          {
+            "path": "/models/dna-double-helix.glb",
+            "title": "DNA Double Helix Structure",
+            "description": "3D model showing the double helix structure of DNA with base pairs (A-T, G-C)"
+          },
+          {
+            "path": "/models/chromosome-structure.glb",
+            "title": "Chromosome Structure",
+            "description": "3D model of chromosome showing DNA packaging with histone proteins"
+          },
+          {
+            "path": "/models/protein-structure.glb",
+            "title": "Protein Structure",
+            "description": "3D model showing primary, secondary (alpha helix, beta sheet), tertiary, and quaternary protein structure"
+          },
+          {
+            "path": "/models/enzyme-substrate.glb",
+            "title": "Enzyme-Substrate Complex",
+            "description": "3D model showing enzyme active site, substrate binding, and induced fit mechanism"
+          },
+          {
+            "path": "/models/cell-division.glb",
+            "title": "Cell Division Process",
+            "description": "3D animation showing stages of mitosis: prophase, metaphase, anaphase, and telophase"
+          }
+        ]
+      },
+      {
+        "title": "46.6 John Cancalosi/Alamy Stock Photo; Scientific Skills Ex-",
+        "content": "ercise Andrew Syred/Science Source; 46.12 Design Pics Inc/Alamy Stock Photo; 46.17 Tidningarnas Telelgrambyra AB;"
+      },
+      {
+        "title": "46.21 M.I. Walker/Science Source; p. 1042 Komodo",
+        "content": "dragon Dave Thompson/AP Images. Chapter 47 47.1 Brad Smith/Stamps School of Art & Design, University of Michigan; inset Oxford Scientific/Getty Images; 47.3"
+      },
+      {
+        "title": "47.6 George von Dassow; 47.7 top Jür-",
+        "content": "gen Berger/Max Planck Institute for Developmental Biology, Tübingen Germany; bot- tom Andrew J. Ewald, Johns Hopkins Medical School; 47.13b Alejandro Díaz Díez/AGE Fotostock/Alamy Stock Photo; 47.14a P. Huw Williams and Jim Smith, The Wellcome Trust/Cancer Research UK Gurdon Institute; 47.14c Thomas Poole, SUNY Health Sci- ence Center; 47.15b Keith Wheeler/Science Source; 47.18b From: Cell lineage analysis in ascidian embryos by intracellular injection of a tracer enzyme. III. Up to the tissue restricted stage. H. Nishida. Dev Biol. 1987 Jun;121(2):526-41. Fig. 1. Reprinted by per- mission of Academic Press;"
+      },
+      {
+        "title": "47.19 From: Post-embryonic cell lineages of the nematode,",
+        "content": "Caenorhabditis elegans. E. Sulston et al. Dev Biol. 1977 Mar;56(1):110-56. Fig. 1; 47.20 Susan Strome;"
+      },
+      {
+        "title": "47.21 Susan Strome; 47.24 From: Dorsal-ventral patterning and neural",
+        "content": "induction in Xenopus embryos. E. M. De Robertis and H. Kuroda. Annu Rev Cell Dev Biol. 2004;20:285-308. Fig. 1; 47.25a Kathryn Tosney, University of Michigan; 47.26"
+      },
+      {
+        "title": "48.5 Thomas Deerinck/",
+        "content": "National Center for Microscopy and Imaging Research, University of California, San Diego;"
+      },
+      {
+        "title": "48.14 Alan Peters; p. 1084 B.A.E./Alamy Stock Photo.",
+        "content": "Chapter 49 49.10 Tamily Weissman; 49.11 Larry Mulvehill/Corbis; 49.15 From: A functional MRI study of happy and sad affective states induced by classical music. M. T. Mitterschiffthaler et al. Hum Brain Mapp. 2007 Nov. 28(11):1150-62. Fig. 1; 49.18 Marcus E. Raichle, Washington University Medical Center. From research"
+      },
+      {
+        "title": "49.19 National Library of",
+        "content": "Medicine (NLM); p. 1099 Jarvis Walter Oleksy/Alamy Stock Photo; p. 1103 Heberlein Matthew Staley;"
+      },
+      {
+        "title": "49.25 Martin M. Rotker/Science Source; p. 1106 microphone Eric Del-",
+        "content": "mar/Getty Images. Chapter 50 50.1 Kenneth Catania; 50.6 CSIRO Publishing; 50.7a Michael Nolan/ Robert Harding World Imagery; 50.7b Grischa Georgiew/Panther Media/AGE Fotostock;"
+      },
+      {
+        "title": "50.9 From: Richard Elzinga, Fundamentals of Entomology, 3rd ed. ©1987,",
+        "content": "p. 185. Reprinted by permission of Prentice-Hall, Upper Saddle River, NJ;"
+      },
+      {
+        "title": "50.10 SPL/",
+        "content": "Science Source; 50.16a APHIS Animal and Plant Health Inspection Service/USDA;"
+      },
+      {
+        "title": "50.27 H. E. Huxley; 50.34 Joe Quinn/Alamy Stock Photo; 50.39",
+        "content": "Dave Watts/NHPA/Science Source; p. 1135 Terence Dawson; Scientific Skills Exercise Vance A. Tucker; p. 1138 hound Dogs/Fotolia. Chapter 51 51.1 Robert Koss/Shutterstock; 51.3 Manamana/Shutterstock; 51.5b Scott Camazine/Alamy Stock Photo; p. 1143 Ian Fletcher/Shutterstock; p. 1144 Dustin Finkelstein/Getty Images for SXSW;"
+      },
+      {
+        "title": "51.12 Richard Wrangham; inset Mike Korostelev www.",
+        "content": "mkorostelev.com/Moment Open/Getty Images; Scientific Skills Exercise Matt Goff; 51.14a Matt T. Lee; 51.14b David Osborn/Alamy Stock Photo; 51.14c David Tipling/ Frank Lane Picture Agency Limited;"
+      },
+      {
+        "title": "1. In a controlled experiment, researchers manipulate one variable",
+        "content": "at a time. (a) What was the variable manipulated in this study? (b) Why did the researchers use more than one hamster for each procedure? (c) What traits of the individual hamsters would likely have been held constant among the treatment groups?"
+      },
+      {
+        "title": "2. For the wild­type hamsters that received τ SCN transplants, what",
+        "content": "would have been an appropriate experimental control? 3. (a) What general trends does the graph above reveal about the circadian cycle period of the transplant recipients? (b) Do the trends differ for the wild­type and τ recipients?"
+      }
+    ]
+  },
+  {
+    "slug": "chapter-13-meiosis-and-sexual-life-cycles",
+    "title": "Chapter 13: Meiosis and Sexual Life Cycles",
+    "description": "Chapter 13 of Campbell Biology: Meiosis and Sexual Life Cycles",
+    "order": 13,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "burg Community College; Inder Saxena, University of Texas, Austin; Karin Scarpinato, Georgia Southern University; Carl Schaefer, University of Connecticut; Andrew Schaffner, Cal Poly San Luis Obispo; Maynard H. Schaus, Virginia Wesleyan College; Renate Scheibe, University of Osnabrück; Cara Schillington, Eastern Michigan University; David Schimpf, University of Minnesota, Duluth; William H. Schlesinger, Duke University; Mark Schlissel, University of California, Berkeley; Christopher J. Schneider, Boston University; Thomas W. Schoener, University of California, Davis; Robert Schorr, Colorado State University; Patricia M. Schulte, University of British Columbia; Karen S. Schumaker, University of Arizona; Brenda Schumpert, Valencia Community College; David J. Schwartz, Houston Community College; Carrie Schwarz, Western Washington University; Christa Schwintzer, University of Maine; Erik P. Scully, Towson State University; Robert W. Seagull, Hofstra University; Edna Seaman, Nort... nonsister chromatids are broken (by proteins) and are rejoined to each other. • At the stage shown above, each homologous pair has one or more X-shaped regions called chiasmata (singular, chiasma), where crossovers have occurred. • Later in prophase I, microtubules from one pole or the other attach to the kinetochores, one at the centromere of each homolog. (The two kineto- chores on the sister chromatids of a homolog are linked together by pro- teins and act as a single kinetochore.) Microtubules move the homologous pairs toward the metaphase plate (see the metaphase I diagram). Prophase I • Pairs of homologous chromosomes are now arranged at the metaphase plate, with one chromo- some of each pair facing each pole. • Each pair has lined up independently of other pairs. (This arrangement is called independent assort- ment, to be discussed later.) • Both chromatids of one homolog are attached to kinetochore microtubules from one pole; the...",
+        "models": [
+          {
+            "path": "/models/buffers-52-1.glb",
+            "title": "molecule shape",
+            "description": "3D model of molecule shape"
+          },
+          {
+            "path": "/models/buffers-52-2.glb",
+            "title": "organ shape",
+            "description": "3D model of organ shape"
+          },
+          {
+            "path": "/models/buffers-52-3.glb",
+            "title": "organism shape",
+            "description": "3D model of organism shape"
+          },
+          {
+            "path": "/models/buffers-52-4.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/buffers-52-5.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/buffers-52-6.glb",
+            "title": "organism form",
+            "description": "3D model of organism form"
+          },
+          {
+            "path": "/models/buffers-52-7.glb",
+            "title": "molecule organization",
+            "description": "3D model of molecule organization"
+          },
+          {
+            "path": "/models/buffers-52-8.glb",
+            "title": "organ organization",
+            "description": "3D model of organ organization"
+          },
+          {
+            "path": "/models/buffers-52-9.glb",
+            "title": "organism organization",
+            "description": "3D model of organism organization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-14-mendel-and-the-gene-idea",
+    "title": "Chapter 14: Mendel and the Gene Idea",
+    "description": "Chapter 14 of Campbell Biology: Mendel and the Gene Idea",
+    "order": 14,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Mendel and the Gene Idea will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-15-the-chromosomal-basis-of-inheritance",
+    "title": "Chapter 15: The Chromosomal Basis of Inheritance",
+    "description": "Chapter 15 of Campbell Biology: The Chromosomal Basis of Inheritance",
+    "order": 15,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "mated wild-type F 1 dihybrid females with homozygous recessive males. This testcross will reveal the genotype of the eggs made by the dihybrid female. The male’s sperm contributes only recessive alleles, so the phenotype of the offspring reflects the genotype of the female’s eggs. Note: Although only females (with pointed abdomens) are shown, half the offspring in each class would be males (with rounded abdomens).",
+        "models": [
+          {
+            "path": "/models/chapter-15-the-chromosomal-basis-of-inheritance-301-1.glb",
+            "title": "molecule shape",
+            "description": "3D model of molecule shape"
+          },
+          {
+            "path": "/models/chapter-15-the-chromosomal-basis-of-inheritance-301-2.glb",
+            "title": "protein shape",
+            "description": "3D model of protein shape"
+          },
+          {
+            "path": "/models/chapter-15-the-chromosomal-basis-of-inheritance-301-3.glb",
+            "title": "organ shape",
+            "description": "3D model of organ shape"
+          }
+        ]
+      },
+      {
+        "title": "9. You design Drosophila crosses to provide recombination data",
+        "content": "for gene a, which is located on the chromosome shown in Figure 15 .12. Gene a has recombination frequencies of 14% with the vestigial wing locus and 26% with the brown eye locus. Approximately where is a located along the chromosome relative to these two loci? Levels 5-6: Evaluating/Creating"
+      },
+      {
+        "title": "10. Banana plants, which are triploid, are seedless and",
+        "content": "therefore sterile. Thinking about meiosis, propose a possible explanation. 11. EVOLUTION CONNECTION Crossing over is thought to be evolutionarily advantageous because it continually shuffles genetic alleles into novel combinations. It was thought that Y-linked genes might degenerate because they lack homologous genes on the X chromosome with which to pair up prior to crossing over. However, when the Y chromosome was sequenced, scientists discovered eight large regions that were internally homologous to each other, and several genes are duplicates. (Y chromosome researcher David Page has called it a “hall of mirrors.”) How might this be beneficial? 12. SCIENTIFIC INQUIRY DRAW IT Assume you are mapping genes A, B, C, and D in Drosophila. You know that these genes are linked on the same chromosome, and you determine the recombination frequencies between each pair of genes to be as follows: A and B, 8%; A and C, 28%; A and D, 25%; B and C, 20%; B and D, 33%. (a) Describe how you determined the recombination frequency for each pair of genes. (b) Draw a chromosome map"
+      },
+      {
+        "title": "1. A man with hemophilia (a recessive, sex-linked condition) has",
+        "content": "a daughter without hemophilia who marries a man without hemophilia. What is the probability of their daughter having hemophilia? Their son? If they have four sons, that all will be affected?"
+      },
+      {
+        "title": "2. Pseudohypertrophic muscular dystrophy is an inherited",
+        "content": "disorder that causes gradual deterioration of the muscles. It is seen almost exclusively in boys born to unaffected parents and usually results in death in the early teens. Is this disorder caused by a dominant or a recessive allele? Is its inheritance sex-linked or autosomal? How do you know? Explain why this disorder is almost never seen in girls."
+      },
+      {
+        "title": "3. A wild-type fruit fly (heterozygous for gray body color and",
+        "content": "normal wings) is mated with a black fly with vestigial wings. The offspring have the following phenotypic distribution: wild- type, 778; black vestigial, 785; black normal, 158; gray vestigial,"
+      }
+    ]
+  },
+  {
+    "slug": "chapter-16-the-molecular-basis-of-inheritance",
+    "title": "Chapter 16: The Molecular Basis of Inheritance",
+    "description": "Chapter 16 of Campbell Biology: The Molecular Basis of Inheritance",
+    "order": 16,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for The Molecular Basis of Inheritance will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-17-gene-expression-from-gene-to-protein",
+    "title": "Chapter 17: Gene Expression: From Gene to Protein",
+    "description": "Chapter 17 of Campbell Biology: Gene Expression: From Gene to Protein",
+    "order": 17,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "and Mutagens 360 Using CRISPR to Edit Genes and Correct Disease-Causing Mutations 360 What Is a Gene? Revisiting the Question 3 61 18 Regulation of Gene Expression 365 CONCEPT 18.1 Bacteria often respond to environmental change by regulating transcription 366 Operons: The Basic Concept 366 Repressible and Inducible Operons: Two Types of Negative Gene Regulation 368 Positive Gene Regulation 369 CONCEPT 18. 2 Eukaryotic gene expression is regulated at many stages 370 Differential Gene Expression 370 Regulation of Chromatin Structure 371 Regulation of Transcription Initiation 373 Mechanisms of Post-transcriptional Regulation 377 CONCEPT 18.3 Noncoding RNAs play multiple roles in controlling gene expression 379 Effects on mRNAs by MicroRNAs and Small Interfering RNAs 37 9 Chromatin Remodeling and Effects on Transcription by ncRNAs 380 CONCEPT 18.4 A program of differential gene expression leads to the different cell types in a multicellular organism ... C G A C U A G A G G G G A C U Anticodon (a) Amino acid attachment site Hydrogen bonds 5¿ 3¿ 3¿5¿ Amino acid attachment site * * * * * * * * * * * * GAA 3¿ 5¿ Anticodon Hydrogen bonds Two-dimensional structure. The four base-paired regions and three loops are characteristic of all tRNAs, as is the base sequence of the amino acid attachment site at the 3¿ end. The anticodon triplet is unique to each tRNA type, as are some sequences in the other two loops. (The asterisks mark bases that have been chemically modified, a characteristic of tRNA. The modified bases contribute to tRNA function in a way that is not yet understood.) (b) Three-dimensional structure (c) Symbol used in this book A C C . Figure 17.16 The structure of transfer RNA (tRNA). VISUAL SKILLS Look at the tRNA shown in this figure.",
+        "models": [
+          {
+            "path": "/models/mutations-360-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/mutations-360-2.glb",
+            "title": "molecule structure",
+            "description": "3D model of molecule structure"
+          },
+          {
+            "path": "/models/mutations-360-3.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/mutations-360-4.glb",
+            "title": "organ structure",
+            "description": "3D model of organ structure"
+          },
+          {
+            "path": "/models/mutations-360-5.glb",
+            "title": "organism structure",
+            "description": "3D model of organism structure"
+          },
+          {
+            "path": "/models/mutations-360-6.glb",
+            "title": "organelle structure",
+            "description": "3D model of organelle structure"
+          },
+          {
+            "path": "/models/mutations-360-7.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/mutations-360-8.glb",
+            "title": "molecule form",
+            "description": "3D model of molecule form"
+          },
+          {
+            "path": "/models/mutations-360-9.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/mutations-360-10.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/mutations-360-11.glb",
+            "title": "organism form",
+            "description": "3D model of organism form"
+          },
+          {
+            "path": "/models/mutations-360-12.glb",
+            "title": "organelle form",
+            "description": "3D model of organelle form"
+          }
+        ]
+      },
+      {
+        "title": "1. In eukaryotic cells, transcription cannot begin until",
+        "content": "(A) the two DNA strands have completely separated and exposed the promoter. (B) several transcription factors have bound to the promoter. (C) the 5′ caps are removed from the mRNA. (D) the DNA introns are removed from the template."
+      },
+      {
+        "title": "2. Which of the following is true of a codon?",
+        "content": "(A) It never codes for the same amino acid as another codon. (B) It can code for more than one amino acid. (C) It can be either in DNA or in RNA (D) It is the basic unit of protein structure.",
+        "models": [
+          {
+            "path": "/models/chapter-17-gene-expression-from-gene-to-protein-363-section-1-1.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          }
+        ]
+      },
+      {
+        "title": "3. The anticodon of a particular tRNA molecule is",
+        "content": "(A) complementary to the corresponding mRNA codon. (B) complementary to the corresponding triplet in rRNA. (C) the part of tRNA that bonds to a specific amino acid. (D) catalytic, making the tRNA a ribozyme."
+      },
+      {
+        "title": "4. Which of the following is true of RNA processing?",
+        "content": "(A) Exons are cut out before mRNA leaves the nucleus. (B) Nucleotides are added at both ends of the RNA. (C) Ribozymes may function in the addition of a 5′ cap. (D) RNA splicing adds a poly-A tail to the mRNA."
+      },
+      {
+        "title": "5. Which component is directly involved in translation?",
+        "content": "(A) RNA polymerase (B) ribosome (C) spliceosome (D) DNA Levels 3-4: Applying/Analyzing"
+      },
+      {
+        "title": "6. Using Figure 17.6, identify a 5′",
+        "content": "S 3′ sequence of nucleotides in the DNA template strand for an mRNA coding for the polypeptide sequence Phe-Pro-Lys. (A) 5′-UUUCCCAAA-3′ (B) 5′-GAACCCCTT-3′ (C) 5′-CTTCGGGAA-3′ (D) 5′-AAACCCUUU-3′"
+      },
+      {
+        "title": "16.23 DNA strand Gopal Murti/Science Source; nucleosome Victoria",
+        "content": "E. Foe; chromosome Biophoto/Science Source; 16.24a Thomas Reid, Genetics Branch/ CCR/NCI/NIH; 16.24b Michael R. Speicher/Medical University of Graz; p. 334 models Thomas A. Steitz/Yale University. Chapter 17 17.1 AFP/Getty Images; 17.7a Keith V. Wood; 17.7b Sinclair Stammers/"
+      },
+      {
+        "title": "18.21 Wolfgang Driever, University of Freiburg, Freiburg,",
+        "content": "Germany; p. 387 Hopkins Courtesy of the Cold Spring Harbor Laboratory Archives;"
+      },
+      {
+        "title": "18.22 Ruth Lahmann, The Whitehead Institution; 18.27 Bloomberg/Getty Images;",
+        "content": "p. 394 King © University of Washington; p. 397 fish Peter Herring/Image Quest Marine. Chapter 19 19.1 Thomas Deerinck, NCMIR/Science Source; 19.2 Peter von Sengbusch, Botanik; 19.3a"
+      },
+      {
+        "title": "19.11 Olivier Asselin/Alamy Stock Photo; inset James Gathany, CDC; 19.12",
+        "content": "Nigel Cattlin/Alamy Stock Photo; p. 414 Tamiflu Nelson Hale/Shutterstock. Chapter 20 20.1 Ian Derrington; 20.2 P. Morris, Garvan Institute of Medical Research; 20.6b Scott Sinklier/Alamy Stock Photo; 20.9 Ethan Bier; 20.13 George S. Watts and Bernard W. Futscher, University of Arizona Cancer Center;"
+      },
+      {
+        "title": "20.14 Stephen",
+        "content": "McNally, UC Berkeley; p. 427 Rotimi National Human Genome Research Institute;"
+      },
+      {
+        "title": "20.23 Brad DeCecco/Redux; 20.24 Steve",
+        "content": "Helber/AP Images; p. 439 Suzuki dpa picture alliance archive/Alamy Stock Photo; p. 441 hot spring Galyna Andrushko/Shutterstock. Chapter 21 21.1 elephant shark Image Quest Marine; sea horse Rich Cary/Shut- terstock;"
+      },
+      {
+        "title": "21.4 University of Toronto Lab; 21.5 Affymetrix; 21.7 left AP Images; right",
+        "content": "Virginia Walbot; p. 451 Walbot Courtesy of Virginia Walbot; 21.10a Oscar L. Miller Jr., Dept. of Biology, University of Virginia; p. 455 Lander Justin Knight Photography; 21.18 mice Francois Gohier/Science Source; brain cells From: Altered ultrasonic vocal- ization in mice with a disruption in the Foxp2 gene. W. Shu et al. Proc Natl Acad Sci U S A. 2005 Jul 5;102(27):9643-8. Epub 2005 Jun 27. Fig. 3; p. 463 Rotimi National Human Genome Research Institute; p. 464 sea urchins WaterFrame/Alamy Stock Photo; p. 466 treehopper Patrick Landmann/Science Source. Unit Four Interview"
+      },
+      {
+        "title": "22.9 Brussels sprouts",
+        "content": "Arena Photo UK/Fotolia; kale Željko Radojko/Fotolia; cabbage Guy Shapira/Shut- terstock; wild mustard Martin Fowler/Alamy"
+      }
+    ]
+  },
+  {
+    "slug": "chapter-18-regulation-of-gene-expression",
+    "title": "Chapter 18: Regulation of Gene Expression",
+    "description": "Chapter 18 of Campbell Biology: Regulation of Gene Expression",
+    "order": 18,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Regulation of Gene Expression will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-19-viruses",
+    "title": "Chapter 19: Viruses",
+    "description": "Chapter 19 of Campbell Biology: Viruses",
+    "order": 19,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Viruses will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-20-dna-tools-and-biotechnology",
+    "title": "Chapter 20: DNA Tools and Biotechnology",
+    "description": "Chapter 20 of Campbell Biology: DNA Tools and Biotechnology",
+    "order": 20,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for DNA Tools and Biotechnology will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-21-genomes-and-their-evolution",
+    "title": "Chapter 21: Genomes and Their Evolution",
+    "description": "Chapter 21 of Campbell Biology: Genomes and Their Evolution",
+    "order": 21,
+    "sections": [
+      {
+        "title": "2017. And a human genome, the first of which took over 10",
+        "content": "years to sequence, could be completed at today’s pace in day or less (Figure 5.25). The number of genomes that have been fully sequenced has exploded, generating reams of data and prompting development of bioinformatics, the use of com - puter software and other computational tools that can handle and analyze these large data sets. The reverberations of these developments have trans - formed the study of biology and related fields. Biologists often look at problems by analyzing large sets of genes or even comparing whole genomes of different species, an approach called genomics. A similar analysis of large sets of proteins, including their sequences, is called proteomics. (Protein sequences can be determined either by using bio - chemical techniques or by translating the DNA sequences that code for them.) These approaches permeate all fields of biology, some examples of which are shown in Figure 5.26. . Figure 5.25 Automatic DNA- sequencing machines and abundant computing power enable rapid sequencing of genes and genomes. CONCEPT CHECK 5.6",
+        "models": [
+          {
+            "path": "/models/2017-and-a-human-genome-the-first-of-which-took-over-10-section-0-1.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          }
+        ]
+      },
+      {
+        "title": "2. Given the function of DNA, why would you expect two spe-",
+        "content": "cies with very similar traits to also have very similar genomes? For suggested answers, see Appendix A. URRY8743_12_SE_C05_PRF.indd 8711/6/19 5:48 AM Hippopotamus Short-finned pilot whale Nucleotide sequencing and the analysis of large sets of genes and proteins can be done rapidly and inexpensively due to advances in technology and information process- ing. Taken together, genomics and proteomics have advanced our understanding of biology across many different fields. A major aim of evolutionary biology is to understand the relationships among species, both living and extinct. For example, genome sequence comparisons have identified the hippopotamus as the land mammal sharing the most recent common ancestor with whales. (See Figure 22.20.) Most plant species exist in a mutually beneficial partnership with fungi (right) and bacteria associated with the plants’ roots; these interactions improve plant growth. Genome sequencing and analysis of gene expression have allowed characterization of plant-associated communities. Such studies will help advance our understanding of such interactions and may improve agricultural practices. (See the Chapter 31 Scientific Skills Exercise and Figure 37.10.) Identifying the genetic basis for human diseases like cancer helps researchers focus their search for potential future treatments. Currently, sequencing the sets of genes expressed in an individual’s tumor can allow a more targeted approach to treating the cancer, a type of “personalized medicine.” (See Figures 12.20 and 18.27.) New DNA sequencing techniques have allowed decoding of minute quantities of DNA found in ancient tissues from our extinct relatives, the Neanderthals (Homo neanderthalensis). Sequencing the Neanderthal genome has informed our understanding of their physical appearance (as in this reconstruction), as well as their relationship with modern humans. (See Figures 34.51 and 34.52.) The tools of molecular genetics and genomics are increasingly used by forensic ecologists to identify which species of animals and plants are killed illegally. In one case, genomic sequences of DNA from illegal shipments of elephant tusks were used to track down poachers and pinpoint the territory where they were operating. (See Figure 56.8.) Conservation Biology Paleontology Evolution Medical Science Species Interactions Mastering Biology HHMI Video: The Making of the Fittest: The Birth and Death of Genes (Icefish) Contributions of Genomics and Proteomics to Biology ▼ Figure 5.26 MAKE CONNECTIONS Considering the examples provided here, describe how the approaches of genomics and proteomics help us to address a variety of biological questions. MAKE CONNECTIONS 88 UNIT ONE The Chemistry of Life URRY8743_12_SE_C05_PRF.indd 8811/6/19 5:48 AM Scientific Skills Exercise Analyzing Polypeptide Sequence Data Are Rhesus Monkeys or Gibbons More Closely Related to Humans? In this exercise, you will look at amino acid sequence data for the b polypeptide chain of hemoglobin, often called b-globin. You will then interpret the data to hypothesize whether the monkey or the gibbon is more closely related to humans. How Such Experiments Are Done Researchers can isolate the polypeptide of interest",
+        "models": [
+          {
+            "path": "/models/2017-and-a-human-genome-the-first-of-which-took-over-10-section-2-1.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/2017-and-a-human-genome-the-first-of-which-took-over-10-section-2-2.glb",
+            "title": "tissue form",
+            "description": "3D model of tissue form"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-22-descent-with-modification-a-darwinian-view-of-life",
+    "title": "Chapter 22: Descent with Modification: A Darwinian View of Life",
+    "description": "Chapter 22 of Campbell Biology: Descent with Modification: A Darwinian View of Life",
+    "order": 22,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Descent with Modification: A Darwinian View of Life will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-23-the-evolution-of-populations",
+    "title": "Chapter 23: The Evolution of Populations",
+    "description": "Chapter 23 of Campbell Biology: The Evolution of Populations",
+    "order": 23,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "rate brain is regionally specialized 1091 Arousal and Sleep 1094 Biological Clock Regulation 1094 Emotions 1095 Functional Imaging of the Brain 1096 CONCEPT 49.3 The cerebral cortex controls voluntary movement and cognitive functions 1096 Information Processing 1097 Language and Speech 1098 Lateralization of Cortical Function 1098 Frontal Lobe Function 1098 Evolution of Cognition in Vertebrates 1098 CONCEPT 49.4 Changes in synaptic connections underlie memory and learning 1099 Neuronal Plasticity 11 0 0 Memory and Learning 11 0 0 Long-Term Potentiation 11 0 1 CONCEPT 49.5 Many nervous system disorders can now be explained in molecular terms 1102 Schizophrenia 11 0 2 Depression 11 0 2 The Brain’s Reward System and Drug Addiction 11 0 3 Alzheimer’s Disease 11 0 3 Parkinson’s Disease 11 0 4 Future Directions in Brain Research 11 0 4 CONCEPT 46.3 Reproductive organs produce and transport gametes 1025 Human Male Reproductive Anatomy 1025 Hu... ls for the male to high-step (e), a behavior that calls the female’s attention to his bright blue feet. Example: Snails in the genus Bradybaena approach each other headfirst when they attempt to mate. Once their heads have moved slightly past each other, the snails’ genitals emerge, and if their shells spiral in the same direction, mating can occur (f). But if a snail attempts to mate with a snail whose shell spirals in the opposite direction (g), the two snails’ genital openings (indicated by arrows) will not be aligned, and mating cannot be completed. (a) (b) (c) (d) (e) (f) (g) ▼ Figure 24.3 Exploring Reproductive Barriers Mastering Biology Video: Blue-Footed Boobies Courtship Ritual (see Concept 23.3). Typically, gene flow occurs between the different populations of a species. This ongoing exchange of alleles tends to hold the populations together genetically. But as we’ll explore in this chapter, a reduction or lack of gene flow can play a key role in the formation of n... RRY8743_12_SE_C24_PRF.indd 51011/8/19 5:11 PM CHAPTER 24 The Origin of Species 511 and the seeds of some flowering plants. In contrast, small rodents may find a river or canyon a formidable barrier. Once geographic isolation has occurred, the separated gene pools may diverge. Different mutations arise, and natu - ral selection and genetic drift may alter allele frequencies in different ways in the separated populations. Reproductive iso- lation may then evolve as a by-product of the genetic diver- gence that results from selection or drift. Figure 24.6 describes an example. On Andros Island, in the Bahamas, populations of the mosquitofish Gambusia hubbsi colonized a series of ponds that later became isolated from one another. Genetic analyses indicate that little or no gene flow currently occurs between the ponds. The envi - ronments of these ponds are very similar except that some contain predatory fishes, while others do not. In ponds with predatory fishes, selection... ulations raised on starch digested starch more efficiently, while those raised on maltose digested maltose more efficiently. The researcher then put flies from the same or differ- ent populations in mating cages and measured mating frequen- cies. All flies used in the mating preference tests were reared for one generation on a standard cornmeal medium. to reproduction between mosquitofish from ponds with predators and those from ponds without predators. Thus, as a by-product of selection for avoiding predators, reproductive barriers have formed in these allopatric populations. Evidence of Allopatric Speciation Many studies provide evidence that speciation can occur in allopatric populations. For example, laboratory studies show that reproductive barriers can develop when populations are isolated experimentally and subjected to different environ - mental conditions (Figure 24.7). Field studies indicate that allopatric speciation also can occur in nature. Consider the 30 speci... are sterile because their chromosomes are not homologous and cannot pair during meiosis. However, such a hybrid may be able to reproduce asexually. This diagram traces one mechanism by which sterile hybrids can give rise to fertile allopolyploids that are members of a new species. URRY8743_12_SE_C24_PRF.indd 51411/8/19 5:11 PM CHAPTER 24 The Origin of Species 515 East when an early cultivated wheat species hybridized with a wild grass. Today, plant geneticists generate new polyploids in the laboratory by using chemicals that induce meiotic and mitotic errors. By harnessing the evolutionary process, researchers can produce new polyploid species with desired qualities, such as a polyploid that combines the high yield of wheat with the hardiness of rye. Mastering Biology Animation: Speciation by Changes in Ploidy Sexual Selection There is evidence that sympatric speciation can also be driven by sexual selection. Clues to how this can occur have been found in cichli... ern of allele frequencies across a hybrid zone? We can infer that there is an obstacle to gene flow—otherwise, alleles from one parent species would also be common in the gene pool of the other parent species. Are geographic barriers reducing gene flow? Not in this case, since the toads can move throughout the hybrid zone. A more important factor is that hybrid toads have increased rates of embryonic mortality and a variety of morphological abnormalities, including ribs that are fused to the spine and malformed tadpole mouthparts. Because the hybrids have poor survival and reproduction, they produce few viable off - spring with members of the parent species. As a result, hybrid individuals rarely serve as a stepping-stone from which alleles are passed from one species to the other. Outside the hybrid zone, additional obstacles to gene flow may be provided by natural selection in the different environments in which the parent species live. Hybrid zones typically are locat... a- tions than for allopatric populations. URRY8743_12_SE_C24_PRF.indd 51811/8/19 5:11 PM CHAPTER 24 The Origin of Species 519 Population Barrier to gene flow Hybrid individual Hybrid zone Gene flow Three populations of a species are connected by gene flow. 1 A barrier to gene flow is established. 2 Gene flow is re-established in a hybrid zone. 4 Possible outcomes for hybrids: Reinforcement (strengthening of reproductive barriers—hybrids gradually cease to be formed) Fusion (weakening of reproductive barriers—the two species fuse) Stability (continued production of hybrid individuals) OR OR 5 This population begins to diverge from the other two populations. 3 . Figure 24.15 Formation of a hybrid zone and common outcomes for hybrids over time. The thick gray and purple arrows represent the passage of time. WHAT IF? Predict what might happen if gene flow were re-established at step 3 in this process. As an example, let’s consider two species of Europea... unflower example, along with the apple maggot fly, Lake Victoria cichlid, and fruit fly examples discussed earlier, suggests that new species can arise rapidly once divergence begins. But what is the total length of time between speciation events? This interval consists of the time that elapses before populations of a newly formed species start to diverge from one another plus the time it takes for speciation to be complete once divergence begins. It turns out that the total time between speciation events varies considerably. In a survey of",
+        "models": [
+          {
+            "path": "/models/emotions-1095-1.glb",
+            "title": "cell anatomy",
+            "description": "3D model of cell anatomy"
+          },
+          {
+            "path": "/models/emotions-1095-2.glb",
+            "title": "protein anatomy",
+            "description": "3D model of protein anatomy"
+          },
+          {
+            "path": "/models/emotions-1095-3.glb",
+            "title": "organ anatomy",
+            "description": "3D model of organ anatomy"
+          },
+          {
+            "path": "/models/emotions-1095-4.glb",
+            "title": "muscle anatomy",
+            "description": "3D model of muscle anatomy"
+          },
+          {
+            "path": "/models/emotions-1095-5.glb",
+            "title": "cell shape",
+            "description": "3D model of cell shape"
+          },
+          {
+            "path": "/models/emotions-1095-6.glb",
+            "title": "protein shape",
+            "description": "3D model of protein shape"
+          },
+          {
+            "path": "/models/emotions-1095-7.glb",
+            "title": "organ shape",
+            "description": "3D model of organ shape"
+          },
+          {
+            "path": "/models/emotions-1095-8.glb",
+            "title": "muscle shape",
+            "description": "3D model of muscle shape"
+          },
+          {
+            "path": "/models/emotions-1095-9.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/emotions-1095-10.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          },
+          {
+            "path": "/models/emotions-1095-11.glb",
+            "title": "organ form",
+            "description": "3D model of organ form"
+          },
+          {
+            "path": "/models/emotions-1095-12.glb",
+            "title": "muscle form",
+            "description": "3D model of muscle form"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-24-the-origin-of-species",
+    "title": "Chapter 24: The Origin of Species",
+    "description": "Chapter 24 of Campbell Biology: The Origin of Species",
+    "order": 24,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for The Origin of Species will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-25-the-history-of-life-on-earth",
+    "title": "Chapter 25: The History of Life on Earth",
+    "description": "Chapter 25 of Campbell Biology: The History of Life on Earth",
+    "order": 25,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for The History of Life on Earth will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-26-phylogeny-and-the-tree-of-life",
+    "title": "Chapter 26: Phylogeny and the Tree of Life",
+    "description": "Chapter 26 of Campbell Biology: Phylogeny and the Tree of Life",
+    "order": 26,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Phylogeny and the Tree of Life will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-27-bacteria-and-archaea",
+    "title": "Chapter 27: Bacteria and Archaea",
+    "description": "Chapter 27 of Campbell Biology: Bacteria and Archaea",
+    "order": 27,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Bacteria and Archaea will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-28-protists",
+    "title": "Chapter 28: Protists",
+    "description": "Chapter 28 of Campbell Biology: Protists",
+    "order": 28,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Protists will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-29-plant-diversity-i-how-plants-colonized-land",
+    "title": "Chapter 29: Plant Diversity I: How Plants Colonized Land",
+    "description": "Chapter 29 of Campbell Biology: Plant Diversity I: How Plants Colonized Land",
+    "order": 29,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Plant Diversity I: How Plants Colonized Land will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-30-plant-diversity-ii-the-evolution-of-seed-plants",
+    "title": "Chapter 30: Plant Diversity II: The Evolution of Seed Plants",
+    "description": "Chapter 30 of Campbell Biology: Plant Diversity II: The Evolution of Seed Plants",
+    "order": 30,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Plant Diversity II: The Evolution of Seed Plants will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-31-fungi",
+    "title": "Chapter 31: Fungi",
+    "description": "Chapter 31 of Campbell Biology: Fungi",
+    "order": 31,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Fungi will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-32-an-overview-of-animal-diversity",
+    "title": "Chapter 32: An Overview of Animal Diversity",
+    "description": "Chapter 32 of Campbell Biology: An Overview of Animal Diversity",
+    "order": 32,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for An Overview of Animal Diversity will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-33-an-introduction-to-invertebrates",
+    "title": "Chapter 33: An Introduction to Invertebrates",
+    "description": "Chapter 33 of Campbell Biology: An Introduction to Invertebrates",
+    "order": 33,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for An Introduction to Invertebrates will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-34-the-origin-and-evolution-of-vertebrates",
+    "title": "Chapter 34: The Origin and Evolution of Vertebrates",
+    "description": "Chapter 34 of Campbell Biology: The Origin and Evolution of Vertebrates",
+    "order": 34,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for The Origin and Evolution of Vertebrates will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-35-vascular-plant-structure-growth-and-development",
+    "title": "Chapter 35: Vascular Plant Structure, Growth, and Development",
+    "description": "Chapter 35 of Campbell Biology: Vascular Plant Structure, Growth, and Development",
+    "order": 35,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Vascular Plant Structure, Growth, and Development will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-36-resource-acquisition-and-transport-in-vascular-plants",
+    "title": "Chapter 36: Resource Acquisition and Transport in Vascular Plants",
+    "description": "Chapter 36 of Campbell Biology: Resource Acquisition and Transport in Vascular Plants",
+    "order": 36,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Resource Acquisition and Transport in Vascular Plants will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-37-soil-and-plant-nutrition",
+    "title": "Chapter 37: Soil and Plant Nutrition",
+    "description": "Chapter 37 of Campbell Biology: Soil and Plant Nutrition",
+    "order": 37,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Soil and Plant Nutrition will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-38-angiosperm-reproduction-and-biotechnology",
+    "title": "Chapter 38: Angiosperm Reproduction and Biotechnology",
+    "description": "Chapter 38 of Campbell Biology: Angiosperm Reproduction and Biotechnology",
+    "order": 38,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Angiosperm Reproduction and Biotechnology will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-39-plant-responses-to-internal-and-external-signals",
+    "title": "Chapter 39: Plant Responses to Internal and External Signals",
+    "description": "Chapter 39 of Campbell Biology: Plant Responses to Internal and External Signals",
+    "order": 39,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Plant Responses to Internal and External Signals will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-40-basic-principles-of-animal-form-and-function",
+    "title": "Chapter 40: Basic Principles of Animal Form and Function",
+    "description": "Chapter 40 of Campbell Biology: Basic Principles of Animal Form and Function",
+    "order": 40,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Basic Principles of Animal Form and Function will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-41-animal-nutrition",
+    "title": "Chapter 41: Animal Nutrition",
+    "description": "Chapter 41 of Campbell Biology: Animal Nutrition",
+    "order": 41,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Animal Nutrition will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-42-circulation-and-gas-exchange",
+    "title": "Chapter 42: Circulation and Gas Exchange",
+    "description": "Chapter 42 of Campbell Biology: Circulation and Gas Exchange",
+    "order": 42,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Circulation and Gas Exchange will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-43-the-immune-system",
+    "title": "Chapter 43: The Immune System",
+    "description": "Chapter 43 of Campbell Biology: The Immune System",
+    "order": 43,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for The Immune System will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-44-osmoregulation-and-excretion",
+    "title": "Chapter 44: Osmoregulation and Excretion",
+    "description": "Chapter 44 of Campbell Biology: Osmoregulation and Excretion",
+    "order": 44,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Osmoregulation and Excretion will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-45-hormones-and-the-endocrine-system",
+    "title": "Chapter 45: Hormones and the Endocrine System",
+    "description": "Chapter 45 of Campbell Biology: Hormones and the Endocrine System",
+    "order": 45,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "do research on tapeworms, irradiate them and examine their chromo- somes, and I was allowed to attend the seminars. I was fascinated by the research, I was just turned on—finally, I realized this is what I’d really like to do. Can you tell me about how you got into cancer research? After my Ph.D. and my postdoctoral re- search at Harvard, I realized I wanted to work on animal cells, so I joined Ira Pastan’s group at the National Cancer Institute at the National Institutes of Health, where I eventually got my own lab. Together with Ken Yamada, I was working on a protein called fibronectin, which was present on the outside surface of normal cells but not cancer cells. Fibronectin is a glycoprotein—it has carbohydrates (sugars) attached to it. At the time, there was a hypothesis that the carbohydrates were necessary for fibro- nectin to be exported from the cell, and we decided to test that hypothesis using a drug called tunicamycin that prevented carbohy- drate attachme... ental stimuli, regulates growth and development, and triggers physical and behavioral changes underlying sexual maturity and reproduction (see Figure 45.1). Paracrine and Autocrine Signaling Many types of cells produce and secrete local regulators, molecules that act over short distances, reach their target cells solely by diffusion, and act on their target cells within seconds or even milliseconds. Local regulators play roles in many physiological processes, including blood pressure regulation, nervous system function, and reproduction. CONCEPT 45.1 Synapse Blood vessel Neurosecretory cell Neuron Blood vessel (a) In endocrine signaling, secreted molecules diffuse into the blood- stream and trigger responses in target cells anywhere in the body. (b) In paracrine signaling, secreted molecules diffuse locally and trigger a response in neighboring cells. (c) In autocrine signaling, secreted molecules diffuse locally and trigger a response in the cells that secrete them. (d) In ... a second capillary bed within the ante - rior pituitary. Releasing and inhibiting hormones thus have direct access to the gland they control. In neuroendocrine pathways, sets of hormones from the hypothalamus, the anterior pituitary, and a target endocrine Anterior pituitary hormones Endocrine cells of the anterior pituitary Neurosecretory cells of the hypothalamus Portal vessels Posterior pituitary Hypothalamic releasing and inhibiting hormones Tropic effects onlyNontropic effects onlyTropic and nontropic effects FSH and LHTSH Thyroid MSH Melanocytes ACTH Adrenal cortex Testes or ovaries GH Liver, bones, other tissues Prolactin Mammary glands HORMONE TARGET c Figure 45.15 Production and release of anterior pituitary hormones. The release of hormones synthesized in the anterior pituitary gland is controlled by hypothalamic releasing and inhibiting hormones. The hypothalamic hormones are secreted by neurosecretory cells and enter a capillary network within the hypothalamus. T... Catecholamines also alter blood flow, causing constriction of some blood vessels and dilation of others. The overall effect is to shunt blood away from the skin, digestive organs, and kidneys while increasing the blood supply to the heart, brain, and skeletal muscles. Adrenal Hormones: Response to Stress The adrenal glands of vertebrates play a major role in the response to stress, a state of threatened homeostasis. Located atop the kidneys (the renal organs), each adrenal gland is actually made up of two glands with different cell types, functions, and embryonic origins: the adrenal cortex, the outer portion, and the adrenal medulla, the central portion (Figure 45.19). The adrenal cortex consists of true endocrine cells, whereas the secretory cells of the adrenal medulla develop from neural tissue. Thus, like the pituitary gland, each adrenal gland is a fused endocrine and neuroendocrine gland. The Role of the Adrenal Medulla Imagine that while walking in the woods at nig...",
+        "models": [
+          {
+            "path": "/models/in-1991-you-became-director-of-the-1.glb",
+            "title": "cell structure",
+            "description": "3D model of cell structure"
+          },
+          {
+            "path": "/models/in-1991-you-became-director-of-the-2.glb",
+            "title": "protein structure",
+            "description": "3D model of protein structure"
+          },
+          {
+            "path": "/models/in-1991-you-became-director-of-the-3.glb",
+            "title": "cell form",
+            "description": "3D model of cell form"
+          },
+          {
+            "path": "/models/in-1991-you-became-director-of-the-4.glb",
+            "title": "protein form",
+            "description": "3D model of protein form"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-46-animal-reproduction",
+    "title": "Chapter 46: Animal Reproduction",
+    "description": "Chapter 46 of Campbell Biology: Animal Reproduction",
+    "order": 46,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Animal Reproduction will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-47-animal-development",
+    "title": "Chapter 47: Animal Development",
+    "description": "Chapter 47 of Campbell Biology: Animal Development",
+    "order": 47,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Animal Development will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-48-neurons-synapses-and-signaling",
+    "title": "Chapter 48: Neurons, Synapses, and Signaling",
+    "description": "Chapter 48 of Campbell Biology: Neurons, Synapses, and Signaling",
+    "order": 48,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Neurons, Synapses, and Signaling will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-49-nervous-systems",
+    "title": "Chapter 49: Nervous Systems",
+    "description": "Chapter 49 of Campbell Biology: Nervous Systems",
+    "order": 49,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Nervous Systems will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-50-sensory-and-motor-mechanisms",
+    "title": "Chapter 50: Sensory and Motor Mechanisms",
+    "description": "Chapter 50 of Campbell Biology: Sensory and Motor Mechanisms",
+    "order": 50,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Sensory and Motor Mechanisms will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-51-animal-behavior",
+    "title": "Chapter 51: Animal Behavior",
+    "description": "Chapter 51 of Campbell Biology: Animal Behavior",
+    "order": 51,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "- cessful will the female allow the male to attempt copulation. In general, the form of communication that evolves is closely related to an animal’s lifestyle and environment. For example, most terrestrial mammals are nocturnal, which makes visual displays relatively ineffective. Instead, these species use olfactory and auditory signals, which work as well in the dark as in the light. In contrast, most birds are diurnal (active mainly in daytime) and communicate primarily by visual and auditory signals. Humans are also diurnal and, like birds, use primarily visual and auditory communication. We can thus detect and appreciate the songs and bright colors used by birds to communicate but miss many chemical cues on which other mammals base their behavior. The information content of animal communication var - ies considerably. One of the most remarkable examples is the symbolic language of the European honeybee (Apis mellifera), discovered in the early 1900s by Austrian researc... ose the arm with the different pattern. The maze experiments provide strong experimental sup - port for the hypothesis that honeybees can distinguish on the basis of “same” and “different.” Remarkably, research published in 2010 indicates that honeybees can also learn to distinguish human faces. The information-processing ability of a nervous system can also be revealed in problem solving, the cognitive . Figure 51.9 Associative learning. Having ingested and vomited a monarch butterfly, a blue jay has probably learned to avoid this species. Mastering Biology HHMI Video: How Lizards Find Their Way Home Associative Learning Learning often involves making associations between experi- ences. Consider, for example, a blue jay (Cyanocitta cristata) that ingests a brightly colored monarch butterfly (Danaus plexippus). Substances that the monarch accumulates from milkweed plants cause the blue jay to vomit almost imme - diately (Figure 51.9). Following such experiences, blue ja... mate choice is a healthy male is likely to pro - duce more offspring that survive to re- produce. As a result, males may compete with each other in ritualized contests to attract female attention (Figure 51.16). In face-offs between male stalk-eyed flies, the male whose eyestalk length is smaller usually retreats peacefully. Mate choice can also be influenced by imprinting, as revealed by experiments carried out with zebra finches (Taeniopygia guttata). Both male and female zebra finches normally lack any feather crest on their head (Figure 51.17). To explore whether parental appearance affects mate pref- erence in offspring independent of any genetic influence, researchers provided zebra finches with artificial ornamen- tation. A 2.5-cm-long red feather was taped to the forehead feathers of either or both zebra finch parents when their chicks were 8 days old, approximately 2 days before they opened their eyes. A control group of zebra finches was raised by unadorned pa... look more closely at some examples of unselfish behavior and con - sider how they might arise. In discussing selflessness, we will use the term altruism to describe a behavior that reduces an animal’s individual fitness but increases the fitness of other individuals in the population. Consider, for example, the Belding’s ground squirrel (Urocitellus beldingi), which lives in the western United States and is vulnerable to predators such as coyotes and hawks. A squirrel that sees a predator approach often gives a high-pitched alarm call that alerts unaware indi - viduals to retreat to their burrows. In warning others, how- ever, this squirrel brings attention to its location and thus increases its own risk of being killed. Another example of altruistic behavior occurs in honey - bee societies, in which the workers are sterile. The workers themselves never reproduce, but they labor on behalf of a single fertile queen. Furthermore, the workers sting intruders, a behavior that h...",
+        "models": [
+          {
+            "path": "/models/dna-double-helix.glb",
+            "title": "DNA Double Helix Structure",
+            "description": "3D model showing the double helix structure of DNA with base pairs (A-T, G-C)"
+          },
+          {
+            "path": "/models/chromosome-structure.glb",
+            "title": "Chromosome Structure",
+            "description": "3D model of chromosome showing DNA packaging with histone proteins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chapter-52-an-introduction-to-ecology-and-the-biosphere",
+    "title": "Chapter 52: An Introduction to Ecology and the Biosphere",
+    "description": "Chapter 52 of Campbell Biology: An Introduction to Ecology and the Biosphere",
+    "order": 52,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for An Introduction to Ecology and the Biosphere will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-53-population-ecology",
+    "title": "Chapter 53: Population Ecology",
+    "description": "Chapter 53 of Campbell Biology: Population Ecology",
+    "order": 53,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Population Ecology will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-54-community-ecology",
+    "title": "Chapter 54: Community Ecology",
+    "description": "Chapter 54 of Campbell Biology: Community Ecology",
+    "order": 54,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Community Ecology will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-55-ecosystems-and-restoration-ecology",
+    "title": "Chapter 55: Ecosystems and Restoration Ecology",
+    "description": "Chapter 55 of Campbell Biology: Ecosystems and Restoration Ecology",
+    "order": 55,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Ecosystems and Restoration Ecology will be available soon."
+      }
+    ]
+  },
+  {
+    "slug": "chapter-56-conservation-biology-and-global-change",
+    "title": "Chapter 56: Conservation Biology and Global Change",
+    "description": "Chapter 56 of Campbell Biology: Conservation Biology and Global Change",
+    "order": 56,
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Content for Conservation Biology and Global Change will be available soon."
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "slug": "sample-chapter",
+  "title": "Sample Chapter: Cell Biology",
+  "description": "This is a sample chapter to demonstrate the structure and format. Replace this with actual chapter data after PDF analysis.",
+  "order": 0,
+  "sections": [
+    {
+      "title": "Introduction to Cells",
+      "content": "Cells are the fundamental units of life. All living organisms are composed of one or more cells. This section introduces the basic structure and function of cells.\n\nCells come in two main types: prokaryotic and eukaryotic. Prokaryotic cells are simpler and lack a nucleus, while eukaryotic cells have a well-defined nucleus and various organelles.",
+      "models": [
+        {
+          "path": "/models/cell-basic.glb",
+          "title": "Basic Cell Structure",
+          "description": "A 3D model showing the basic components of a eukaryotic cell",
+          "annotations": [
+            {
+              "position": [0, 1, 0],
+              "label": "Nucleus",
+              "description": "Contains the cell's genetic material (DNA)"
+            },
+            {
+              "position": [1, 0, 0],
+              "label": "Mitochondria",
+              "description": "Powerhouse of the cell, produces energy"
+            },
+            {
+              "position": [-1, -0.5, 0],
+              "label": "Cell Membrane",
+              "description": "Protective barrier that controls what enters and exits the cell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cell Organelles",
+      "content": "Eukaryotic cells contain various organelles, each with specific functions:\n\n- **Nucleus**: Controls cell activities and contains DNA\n- **Mitochondria**: Produce energy through cellular respiration\n- **Endoplasmic Reticulum**: Involved in protein and lipid synthesis\n- **Golgi Apparatus**: Modifies and packages proteins\n- **Ribosomes**: Site of protein synthesis\n- **Lysosomes**: Contain enzymes for digestion",
+      "models": [
+        {
+          "path": "/models/cell-organelles.glb",
+          "title": "Cell Organelles",
+          "description": "Interactive 3D model showing all major organelles in a cell"
+        }
+      ]
+    },
+    {
+      "title": "Cell Division",
+      "content": "Cell division is the process by which cells reproduce. There are two main types:\n\n1. **Mitosis**: Produces two identical daughter cells\n2. **Meiosis**: Produces gametes with half the genetic material\n\nThis process is essential for growth, repair, and reproduction.",
+      "models": [
+        {
+          "path": "/models/cell-division.glb",
+          "title": "Cell Division Process",
+          "description": "Animated 3D model showing the stages of cell division"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* 1. Set global font and height for Thai readability */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-kanit), sans-serif;
+  line-height: 1.6; /* Thai characters need a bit more height */
+}
+
+/* 2. Ensure Tailwind Typography (prose) uses Kanit */
+@layer base {
+  .prose {
+    font-family: var(--font-kanit), sans-serif;
+  }
+  
+  /* Make subscripts look cleaner with Kanit */
+  sub {
+    bottom: -0.2em;
+    font-size: 0.75em;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ===========================
+   usaco.guide-like scrollbar
+   drop into globals.css
+   =========================== */
+
+/* Theme variables — tweak these to taste */
+:root {
+  --ug-scrollbar-width: 10px;                /* overall thickness */
+  --ug-track: rgba(15, 23, 42, 0.06);        /* track (light) */
+  --ug-thumb-start: #60a5fa;                 /* thumb gradient start */
+  --ug-thumb-end: #2563eb;                   /* thumb gradient end */
+  --ug-thumb-border: rgba(255,255,255,0.6);  /* thumb inner border to create inset look */
+  --ug-thumb-hover-brighten: 1.05;
+  --ug-thumb-min-height: 28px;
+  --ug-radius: 9999px;
+}
+
+/* Dark mode overrides (Tailwind .dark or any .dark parent) */
+.dark, :root.dark {
+  --ug-track: rgba(2,6,23,0.48);
+  --ug-thumb-start: #475569;  /* slate-600 */
+  --ug-thumb-end: #1f2937;    /* slate-800 */
+  --ug-thumb-border: rgba(2,6,23,0.6);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ug-thumb-start) var(--ug-track);
+}
+
+*::-webkit-scrollbar {
+  width: var(--ug-scrollbar-width);
+  height: var(--ug-scrollbar-width);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--ug-track);
+  border-radius: var(--ug-radius);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.02);
+}
+
+*::-webkit-scrollbar-thumb {
+  min-height: var(--ug-thumb-min-height);
+  border-radius: var(--ug-radius);
+  background: linear-gradient(180deg, var(--ug-thumb-start), var(--ug-thumb-end));
+  border: 2px solid var(--ug-thumb-border);
+  background-clip: padding-box; /* keep border visible */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  filter: brightness(var(--ug-thumb-hover-brighten));
+}
+
+/* --------------------
+   Recommended: class-based scrollbar (apply where needed)
+   Usage: add `className="ug-scrollbar overflow-y-auto"` in JSX
+   -------------------- */
+.ug-scrollbar {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--ug-thumb-start) var(--ug-track);
+}
+
+/* WebKit browsers (Chrome, Edge, Safari) */
+.ug-scrollbar::-webkit-scrollbar {
+  width: var(--ug-scrollbar-width);
+  height: var(--ug-scrollbar-width);
+}
+
+.ug-scrollbar::-webkit-scrollbar-track {
+  background: var(--ug-track);
+  border-radius: var(--ug-radius);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.03);
+}
+
+.ug-scrollbar::-webkit-scrollbar-thumb {
+  min-height: var(--ug-thumb-min-height);
+  border-radius: var(--ug-radius);
+  background: linear-gradient(180deg, var(--ug-thumb-start), var(--ug-thumb-end));
+  border: 2px solid var(--ug-thumb-border);
+  background-clip: padding-box;
+}
+
+/* hover / active */
+.ug-scrollbar::-webkit-scrollbar-thumb:hover {
+  filter: brightness(var(--ug-thumb-hover-brighten));
+}
+.ug-scrollbar::-webkit-scrollbar-thumb:active {
+  transform: scale(0.98); /* subtle pressed feel (some browsers ignore transforms on thumb) */
+}
+
+/* corner (when both axes scroll) */
+.ug-scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Optional: accessible focus ring on container when user tabs inside */
+.ug-scrollbar:focus-within {
+  outline: 2px solid rgba(37,99,235,0.12);
+  outline-offset: 2px;
+}
