@@ -82,7 +82,7 @@ export default function ContentRenderer({ content }: ContentRendererProps) {
   const blocks = content.split(/\n\n+/);
 
   return (
-    <div className="prose prose-lg dark:prose-invert max-w-none mb-6 text-gray-700 dark:text-gray-300 leading-relaxed">
+    <div className="max-w-none mb-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
       {blocks.map((block, bIndex) => {
         const trimmedBlock = block.trim();
 
@@ -90,7 +90,7 @@ export default function ContentRenderer({ content }: ContentRendererProps) {
         if (trimmedBlock.startsWith("### ")) {
           const headingText = trimmedBlock.replace(/^###\s+/, "");
           return (
-            <h3 key={bIndex} className="text-xl font-bold mt-8 mb-4 text-gray-750 dark:text-gray-250">
+            <h3 key={bIndex} className="text-xl font-bold mt-8 mb-4 text-gray-900 dark:text-gray-100">
               {renderTextWithGlossary(headingText)}
             </h3>
           );

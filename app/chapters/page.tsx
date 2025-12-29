@@ -8,9 +8,9 @@ export default async function ChaptersPage() {
 
   return (
     <div className="lg:ml-64">
-      <div className="prose container mx-auto px-4 py-12 max-w-7xl">
+      <div className="container mx-auto px-4 py-12 max-w-7xl">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold mb-4">บทเรียน</h1>
+          <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">บทเรียน</h1>
           <p className="text-gray-600 dark:text-gray-400">
             เรียนรู้ชีววิทยาผ่านคำอธิบายที่เข้าใจง่ายและพร้อมโมเดล 3 มิติ และสื่อประกอบ
           </p>

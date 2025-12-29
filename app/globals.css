@@ -22,13 +22,8 @@ body {
   line-height: 1.6; /* Thai characters need a bit more height */
 }
 
-/* 2. Ensure Tailwind Typography (prose) uses Kanit */
+/* Make subscripts look cleaner with Kanit */
 @layer base {
-  .prose {
-    font-family: var(--font-kanit), sans-serif;
-  }
-  
-  /* Make subscripts look cleaner with Kanit */
   sub {
     bottom: -0.2em;
     font-size: 0.75em;

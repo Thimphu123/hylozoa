@@ -38,7 +38,7 @@ export default function Sidebar({ chapters }: SidebarProps) {
         isOpen ? "w-64" : "w-16"
       } hidden lg:block bg-white dark:bg-gray-950 border-r border-gray-200 dark:border-gray-800 fixed left-0 top-16 h-[calc(100vh-4rem)] overflow-y-auto transition-all duration-300 z-40`}
     >
-      <div className="prose p-4">
+      <div className="p-4">
         <div className="flex items-center justify-between mb-4">
           <h2 className={`font-semibold text-gray-900 dark:text-gray-100 ${!isOpen && "hidden"}`}>
             บทเรียน

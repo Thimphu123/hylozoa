@@ -32,8 +32,8 @@ export default async function ChapterPage({
     currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
 
   return (
-    <div className="lg:ml-64">
-      <div className="prose container mx-auto px-4 py-8 max-w-7xl lg:ml-0">
+    <div className="lg:ml-64 w-full overflow-x-hidden">
+      <div className="mx-auto lg:mx-0 px-4 lg:px-6 py-8 max-w-7xl lg:ml-0">
         <div className="mb-8">
           <Link
             href="/chapters"
@@ -41,7 +41,7 @@ export default async function ChapterPage({
           >
             ← กลับไปที่บทเรียน
           </Link>
-          <h1 className="text-4xl font-bold mt-4 mb-4 text-gray-700 dark:text-gray-300">{chapter.title}</h1>
+          <h1 className="text-4xl font-bold mt-4 mb-4 text-gray-900 dark:text-gray-100">{chapter.title}</h1>
           {chapter.description && (
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
               {chapter.description}
@@ -52,9 +52,9 @@ export default async function ChapterPage({
           )}
         </div>
 
-        <div className="flex gap-8">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
           {/* Main content */}
-          <div className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0 w-full">
             <div className="space-y-12">
               {chapter.sections && chapter.sections.length > 0 ? (
                 chapter.sections.map((section, index) => (
@@ -63,7 +63,7 @@ export default async function ChapterPage({
                     id={`section-${index}`}
                     className="scroll-mt-20"
                   >
-                    <h2 className="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-300">
+                    <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
                       {section.title}
                     </h2>
 

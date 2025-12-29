@@ -38,7 +38,7 @@ export default function ProgressDashboard({ chapters }: ProgressDashboardProps) 
     <div className="space-y-6">
       {/* Overall Statistics */}
       <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 p-6">
-        <h2 className="text-2xl font-bold mb-4">ภาพรวมความคืบหน้า</h2>
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">ภาพรวมความคืบหน้า</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
           <div className="text-center">
             <div className="text-3xl font-bold text-green-600 dark:text-green-400">
@@ -75,7 +75,7 @@ export default function ProgressDashboard({ chapters }: ProgressDashboardProps) 
       {/* Continue Learning */}
       {inProgressChapters.length > 0 && (
         <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 p-6">
-          <h2 className="text-xl font-semibold mb-4">เรียนต่อ</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">เรียนต่อ</h2>
           <div className="space-y-2">
             {inProgressChapters.slice(0, 3).map((chapter) => (
               <Link
@@ -96,7 +96,7 @@ export default function ProgressDashboard({ chapters }: ProgressDashboardProps) 
       {/* Recently Completed */}
       {completedChapters.length > 0 && (
         <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 p-6">
-          <h2 className="text-xl font-semibold mb-4">เพิ่งจบไป</h2>
+          <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">เพิ่งจบไป</h2>
           <div className="space-y-2">
             {completedChapters
               .slice(-3)

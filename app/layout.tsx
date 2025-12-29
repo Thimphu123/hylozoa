@@ -50,7 +50,7 @@ export default async function RootLayout({
   return (
     <html lang="th" className={kanit.variable}>
       <body className="antialiased font-sans">
-        <div className="prose min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col">
           <Navigation />
           <div className="flex flex-1 relative">
             <Sidebar chapters={chapters} />

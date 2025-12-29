@@ -22,7 +22,7 @@ export default function NavigationClient({ chapters }: NavigationClientProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="prose bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
+    <nav className="bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400 lg:ml-48">
