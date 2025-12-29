@@ -32,7 +32,7 @@ export default async function ChapterPage({
     currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
 
   return (
-    <div className="lg:ml-64 w-full overflow-x-hidden">
+    <div className="lg:pl-64 w-full overflow-x-hidden">
       <div className="mx-auto lg:mx-0 px-4 lg:px-6 py-8 max-w-7xl lg:ml-0">
         <div className="mb-8">
           <Link
