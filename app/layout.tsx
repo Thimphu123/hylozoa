@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from "@/app/components/Navigation/Navigation";
 import Sidebar from "@/app/components/Navigation/Sidebar";
 import { getChapters } from "@/lib/chapter-data";
+import { Analytics } from "@vercel/analytics/next";
 
 // 2. Configure Kanit
 const kanit = Kanit({
@@ -60,6 +61,7 @@ export default async function RootLayout({
             <p>Hylozoa - ทำให้ชีววิทยาเป็นเรื่องง่าย</p>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
