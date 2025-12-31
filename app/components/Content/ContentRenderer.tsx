@@ -280,7 +280,7 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
   const blocks = content.split(/\n\n+/);
 
   return (
-    <div className="max-w-none mb-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base">
+    <div className="w-full mb-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base" style={{ maxWidth: '100%' }}>
       {blocks.map((block, bIndex) => {
         const trimmedBlock = block.trim();
 
@@ -289,38 +289,38 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
         if (tableData) {
           const [headerRow, ...bodyRows] = tableData;
           return (
-            <div key={bIndex} className="my-6 w-full overflow-x-auto -mx-4 px-4">
-              <table className="w-full max-w-full border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm table-auto">
-                  <thead>
-                    <tr className="bg-blue-100 dark:bg-blue-600/50">
-                      {headerRow.map((cell, cellIndex) => (
-                        <th
+            <div key={bIndex} className="my-6 w-full overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
+                <thead>
+                  <tr className="bg-blue-100 dark:bg-blue-600/50">
+                    {headerRow.map((cell, cellIndex) => (
+                      <th
+                        key={cellIndex}
+                        className="border border-gray-300 dark:border-gray-600 py-3 text-center font-semibold text-gray-600 dark:text-gray-300"
+                      >
+                        {renderTableHeaderCell(cell)}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {bodyRows.map((row, rowIndex) => (
+                    <tr
+                      key={rowIndex}
+                      className="hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors"
+                    >
+                      {row.map((cell, cellIndex) => (
+                        <td
                           key={cellIndex}
-                          className="border border-gray-300 dark:border-gray-600 px-4 py-3 text-center font-semibold text-gray-600 dark:text-gray-300"
+                          className="border border-gray-300 mx-4 px-4 dark:border-gray-600 py-3 text-gray-700 dark:text-gray-300"
                         >
-                          {renderTableHeaderCell(cell)}
-                        </th>
+                          {renderTableCell(cell)}
+                        </td>
                       ))}
                     </tr>
-                  </thead>
-                  <tbody>
-                    {bodyRows.map((row, rowIndex) => (
-                      <tr
-                        key={rowIndex}
-                        className="hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors"
-                      >
-                        {row.map((cell, cellIndex) => (
-                          <td
-                            key={cellIndex}
-                            className="border border-gray-300 dark:border-gray-600 py-3 px-4 text-gray-700 dark:text-gray-300"
-                          >
-                            {renderTableCell(cell)}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                  ))}
+                </tbody>
+              </table>
             </div>
           );
         }
