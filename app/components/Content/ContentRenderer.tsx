@@ -312,7 +312,7 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
                       {row.map((cell, cellIndex) => (
                         <td
                           key={cellIndex}
-                          className="border border-gray-300 mx-8 px-4 dark:border-gray-600 py-3 text-gray-700 dark:text-gray-300"
+                          className="border border-gray-300 dark:border-gray-600 py-3 text-gray-700 dark:text-gray-300"
                         >
                           {renderTableCell(cell)}
                         </td>
