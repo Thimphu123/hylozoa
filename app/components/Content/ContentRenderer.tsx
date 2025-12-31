@@ -289,8 +289,8 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
         if (tableData) {
           const [headerRow, ...bodyRows] = tableData;
           return (
-            <div key={bIndex} className="my-6 w-full overflow-x-auto">
-              <table className="w-full border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
+            <div key={bIndex} className="my-6">
+              <table className="border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
                 <thead>
                   <tr className="bg-blue-100 dark:bg-blue-600/50">
                     {headerRow.map((cell, cellIndex) => (
