@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
+import { getSectionProgress } from "@/lib/progress"
 
 interface ProgressTrackerProps {
   sections: Array<{ title: string }>;
@@ -13,35 +14,53 @@ export default function ProgressTracker({
 }: ProgressTrackerProps) {
   const [progress, setProgress] = useState(0);
 
-  // useEffect(() => {
-  //   const storageKey = `chapter-progress-${chapterSlug}`;
-  //   const saved = localStorage.getItem(storageKey);
-  //   if (saved) {
-  //     setProgress(parseInt(saved, 10));
-  //   }
-  // }, [chapterSlug]);
+  const calculateProgress = useCallback(() => {
+    const totalSections = sections.length;
+    if (totalSections === 0) {
+      setProgress(0);
+      return;
+    }
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const windowHeight = window.innerHeight;
-  //     const documentHeight = document.documentElement.scrollHeight;
-  //     const scrollTop = window.scrollY;
-  //     const scrollPercent =
-  //       (scrollTop / (documentHeight - windowHeight)) * 100;
+    // Count completed sections
+    let completedCount = 0;
+    for (let i = 0; i < totalSections; i++) {
+      const sectionProgress = getSectionProgress(chapterSlug, i);
+      if (sectionProgress?.status === "completed") {
+        completedCount++;
+      }
+    }
 
-  //     const newProgress = Math.min(100, Math.max(0, Math.round(scrollPercent)));
-  //     setProgress(newProgress);
+    // Calculate percentage
+    const progressPercent = Math.round((completedCount / totalSections) * 100);
+    setProgress(progressPercent);
+  }, [chapterSlug, sections.length]);
 
-  //     // Save to localStorage
-  //     const storageKey = `chapter-progress-${chapterSlug}`;
-  //     localStorage.setItem(storageKey, newProgress.toString());
-  //   };
+  useEffect(() => {
+    // Calculate initial progress
+    calculateProgress();
 
-  //   window.addEventListener("scroll", handleScroll);
-  //   handleScroll(); // Initial calculation
+    // Listen for custom event when section status changes
+    const handleSectionStatusChange = (event: CustomEvent) => {
+      if (event.detail?.chapterSlug === chapterSlug) {
+        calculateProgress();
+      }
+    };
 
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, [chapterSlug]);
+    // Listen for storage changes (fallback)
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key?.startsWith(`section-progress-${chapterSlug}-`)) {
+        calculateProgress();
+      }
+    };
+
+    window.addEventListener("sectionProgressChanged" as any, handleSectionStatusChange);
+    window.addEventListener("storage", handleStorageChange);
+
+    return () => {
+      window.removeEventListener("sectionProgressChanged" as any, handleSectionStatusChange);
+      window.removeEventListener("storage", handleStorageChange);
+    };
+  }, [chapterSlug, calculateProgress]);
 
   return (
     <div className="mb-6">

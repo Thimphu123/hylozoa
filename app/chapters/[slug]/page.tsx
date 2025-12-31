@@ -32,9 +32,9 @@ export default async function ChapterPage({
     currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
 
   return (
-    <div className="lg:pl-64 w-full overflow-x-hidden">
+    <div className="lg:pl-64 w-full">
       <div className="mx-auto lg:mx-0 px-4 lg:px-6 py-8 max-w-7xl lg:ml-0">
-        <div className="mb-8">
+        <div className="mb-8 overflow-x-hidden">
           <Link
             href="/chapters"
             className="text-blue-600 dark:text-blue-400 hover:underline mb-4 inline-block"
@@ -52,9 +52,9 @@ export default async function ChapterPage({
           )}
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 items-start">
           {/* Main content */}
-          <div className="flex-1 min-w-0 w-full">
+          <div className="flex-1 min-w-0 w-full overflow-x-hidden">
             <div className="space-y-12">
               {chapter.sections && chapter.sections.length > 0 ? (
                 chapter.sections.map((section, index) => (
@@ -143,12 +143,12 @@ export default async function ChapterPage({
 
           {/* Sidebar navigation */}
           {chapter.sections && chapter.sections.length > 0 && (
-            <div className="hidden lg:block w-64 flex-shrink-0">
+            <aside className="hidden lg:block w-64 flex-shrink-0">
               <SectionNavigation
                 sections={chapter.sections}
                 chapterSlug={chapter.slug}
               />
-            </div>
+            </aside>
           )}
         </div>
       </div>

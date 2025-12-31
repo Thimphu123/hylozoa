@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Chapter } from "@/lib/chapter-data";
-import { getChapterProgress, ProgressStatus } from "@/lib/progress";
+import { getChapterProgress, ProgressStatus, ChapterProgress } from "@/lib/progress";
 
 interface SidebarProps {
   chapters: Chapter[];
@@ -26,6 +26,51 @@ function getStatusIcon(status: ProgressStatus | null) {
 export default function Sidebar({ chapters }: SidebarProps) {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(true);
+  const [chapterProgressMap, setChapterProgressMap] = useState<Record<string, ChapterProgress | null>>({});
+
+  // Initialize chapter progress from localStorage
+  useEffect(() => {
+    const initialProgress: Record<string, ChapterProgress | null> = {};
+    chapters.forEach((chapter) => {
+      initialProgress[chapter.slug] = getChapterProgress(chapter.slug);
+    });
+    setChapterProgressMap(initialProgress);
+  }, [chapters]);
+
+  // Listen for section progress changes
+  useEffect(() => {
+    const handleSectionProgressChanged = (event: CustomEvent) => {
+      const { chapterSlug } = event.detail || {};
+      if (chapterSlug) {
+        // Update the chapter progress for the affected chapter
+        const updatedProgress = getChapterProgress(chapterSlug);
+        setChapterProgressMap((prev) => ({
+          ...prev,
+          [chapterSlug]: updatedProgress,
+        }));
+      }
+    };
+
+    // Listen for storage changes (fallback)
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key?.startsWith("chapter-progress-")) {
+        const chapterSlug = e.key.replace("chapter-progress-", "");
+        const updatedProgress = getChapterProgress(chapterSlug);
+        setChapterProgressMap((prev) => ({
+          ...prev,
+          [chapterSlug]: updatedProgress,
+        }));
+      }
+    };
+
+    window.addEventListener("sectionProgressChanged" as any, handleSectionProgressChanged);
+    window.addEventListener("storage", handleStorageChange);
+
+    return () => {
+      window.removeEventListener("sectionProgressChanged" as any, handleSectionProgressChanged);
+      window.removeEventListener("storage", handleStorageChange);
+    };
+  }, []);
 
   // Only show sidebar on chapter pages
   const isChapterPage = pathname.startsWith("/chapters");
@@ -69,7 +114,7 @@ export default function Sidebar({ chapters }: SidebarProps) {
         <nav className="space-y-1">
           {chapters.map((chapter) => {
             const isActive = pathname === `/chapters/${chapter.slug}`;
-            const progress = getChapterProgress(chapter.slug);
+            const progress = chapterProgressMap[chapter.slug] || getChapterProgress(chapter.slug);
             const status = progress?.status || "not_started";
 
             return (

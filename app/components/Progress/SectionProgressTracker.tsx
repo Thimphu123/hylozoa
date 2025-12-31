@@ -60,6 +60,12 @@ export default function SectionProgressTracker({
         totalSections,
       });
     }
+
+    // Dispatch custom event to notify ProgressTracker
+    const event = new CustomEvent("sectionProgressChanged", {
+      detail: { chapterSlug, sectionIndex, newStatus }
+    });
+    window.dispatchEvent(event);
   };
 
   return (
