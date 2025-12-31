@@ -5,6 +5,7 @@ import Navigation from "@/app/components/Navigation/Navigation";
 import Sidebar from "@/app/components/Navigation/Sidebar";
 import { getChapters } from "@/lib/chapter-data";
 import { Analytics } from "@vercel/analytics/next";
+import { HighlightSettingsProvider } from "@/app/contexts/HighlightSettingsContext";
 
 // 2. Configure Kanit
 const kanit = Kanit({
@@ -51,17 +52,19 @@ export default async function RootLayout({
   return (
     <html lang="th" className={kanit.variable}>
       <body className="antialiased font-sans">
-        <div className="min-h-screen flex flex-col">
-          <Navigation />
-          <div className="flex flex-1 relative">
-            <Sidebar chapters={chapters} />
-            <main className="flex-1">{children}</main>
+        <HighlightSettingsProvider>
+          <div className="min-h-screen flex flex-col">
+            <Navigation />
+            <div className="flex flex-1 relative">
+              <Sidebar chapters={chapters} />
+              <main className="flex-1">{children}</main>
+            </div>
+            <footer className="border-t border-gray-200 dark:border-gray-800 py-4 px-6 text-center text-sm text-gray-600 dark:text-gray-400">
+              <p>Hylozoa - ทำให้ชีววิทยาเป็นเรื่องง่าย</p>
+            </footer>
           </div>
-          <footer className="border-t border-gray-200 dark:border-gray-800 py-4 px-6 text-center text-sm text-gray-600 dark:text-gray-400">
-            <p>Hylozoa - ทำให้ชีววิทยาเป็นเรื่องง่าย</p>
-          </footer>
-        </div>
-        <Analytics />
+          <Analytics />
+        </HighlightSettingsProvider>
       </body>
     </html>
   );

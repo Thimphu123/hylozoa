@@ -68,7 +68,7 @@ export default async function ChapterPage({
                     </h2>
 
                     {section.content && (
-                      <ContentRenderer content={section.content} />
+                      <ContentRenderer content={section.content} media={section.media} />
                     )}
 
                 {section.models && section.models.length > 0 && (
@@ -81,7 +81,7 @@ export default async function ChapterPage({
                         <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
                           {model.title || "3D Model"}
                         </h3>
-                        <div className="w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+                        <div className="w-full h-[300px] md:h-[350px] rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
                           <ModelViewer
                             modelPath={model.path}
                             annotations={model.annotations}

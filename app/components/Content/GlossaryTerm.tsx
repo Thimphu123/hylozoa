@@ -1,27 +1,64 @@
 "use client";
 import React, { useMemo } from "react";
+import { useHighlightSettings } from "@/app/contexts/HighlightSettingsContext";
 
 interface GlossaryTermProps {
   word: string;
   definition: string;
+  index?: number; // For density control
 }
 
-export default function GlossaryTerm({ word, definition }: GlossaryTermProps) {
-  const colors = useMemo(() => [
-    { border: "border-red-500/70", bg: "group-hover:bg-red-100 dark:group-hover:bg-red-900/100" },
-    { border: "border-orange-500/70", bg: "group-hover:bg-orange-100 dark:group-hover:bg-orange-900/100" },
-    { border: "border-yellow-500/70", bg: "group-hover:bg-yellow-100 dark:group-hover:bg-yellow-900/100" },
-    { border: "border-green-500/70", bg: "group-hover:bg-green-100 dark:group-hover:bg-green-900/100" },
-    { border: "border-blue-500/70", bg: "group-hover:bg-blue-100 dark:group-hover:bg-blue-900/100" },
-    { border: "border-purple-500/70", bg: "group-hover:bg-purple-100 dark:group-hover:bg-purple-900/100" },
-  ], []);
+export default function GlossaryTerm({ word, definition, index = 0 }: GlossaryTermProps) {
+  const { settings, shouldHighlight } = useHighlightSettings();
 
-  // Pick a random color once when the component mounts
-  const color = useMemo(() => colors[Math.floor(Math.random() * colors.length)], [colors]);
+  // Check if this term should be highlighted based on density
+  if (!shouldHighlight(index)) {
+    return <span className="text-gray-700 dark:text-gray-300">{word}</span>;
+  }
+
+  // Color selection based on settings
+  const colorClasses = useMemo(() => {
+    // Random color (default)
+    const colors = [
+        { border: "border-red-500/70", bg: "group-hover:bg-red-100 dark:group-hover:bg-red-900/100" },
+        { border: "border-orange-500/70", bg: "group-hover:bg-orange-100 dark:group-hover:bg-orange-900/100" },
+        { border: "border-yellow-500/70", bg: "group-hover:bg-yellow-100 dark:group-hover:bg-yellow-900/100" },
+        { border: "border-green-500/70", bg: "group-hover:bg-green-100 dark:group-hover:bg-green-900/100" },
+        { border: "border-blue-500/70", bg: "group-hover:bg-blue-100 dark:group-hover:bg-blue-900/100" },
+        { border: "border-purple-500/70", bg: "group-hover:bg-purple-100 dark:group-hover:bg-purple-900/100" },
+      ];
+    if (settings.color === "red") {
+      return colors[0];
+    }
+    if (settings.color === "orange") {
+      return colors[1];
+    }
+    if (settings.color === "yellow") {
+        return colors[2];
+    }
+    if (settings.color === "green") {
+        return colors[3];
+    }
+    if (settings.color === "blue") {
+        return colors[4];
+    }
+    if (settings.color === "purple") {
+        return colors[5];
+    }
+    return colors[Math.floor(Math.random() * colors.length)];
+  }, [settings.color]);
+
+  // Underline style class
+  const underlineStyleClass = useMemo(() => {
+    if (settings.underlineStyle === "dotted") return "border-dotted";
+    if (settings.underlineStyle === "dashed") return "border-dashed";
+    if (settings.underlineStyle === "none") return "border-none";
+    return "border-solid";
+  }, [settings.underlineStyle]);
 
   return (
     <span className="group relative inline cursor-help">
-      <span className={`inline transition-all duration-200 border-b-[3px] border-solid ${color.border} ${color.bg} px-0.5 rounded-t-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-gray-100`}>
+      <span className={`inline transition-all duration-200 border-b-[3px] ${underlineStyleClass} ${colorClasses.border} ${colorClasses.bg} px-0.5 rounded-t-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-gray-100`}>
         {word}
       </span>
       

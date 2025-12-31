@@ -16,7 +16,7 @@ export default function Home() {
         <div className="text-center mt-16">
           <Link
             href="/chapters"
-            className="inline-block text-xl bg-blue-950 hover:bg-blue-800 shadow-md shadow-blue-900 hover:shadow-xl text-white py-4 px-8 rounded-lg transition-colors transition-shadow duration-200"
+            className="inline-block text-xl bg-blue-600 dark:bg-blue-950 hover:bg-blue-800 shadow-md shadow-blue-900 hover:shadow-xl text-white py-4 px-8 rounded-lg transition-colors transition-shadow duration-200"
           >
             เริ่มเรียน →
           </Link>

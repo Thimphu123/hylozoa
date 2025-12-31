@@ -11,10 +11,20 @@ export interface Model {
   annotations?: Annotation[];
 }
 
+export interface MediaEmbed {
+  type: "image" | "video" | "model";
+  path: string;
+  title?: string;
+  description?: string;
+  annotations?: Annotation[]; // For models
+  width?: "small" | "medium" | "large" | "full"; // For inline sizing
+}
+
 export interface Section {
   title: string;
   content?: string;
-  models?: Model[];
+  models?: Model[]; // Legacy: models at the end of section
+  media?: MediaEmbed[]; // New: media that can be embedded anywhere
 }
 
 export interface Chapter {
