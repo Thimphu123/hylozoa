@@ -17,6 +17,9 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
   // Reset counter for each content render
   globalGlossaryTermIndex = 0;
 
+  // --- NEW: A Set to collect missing words during this render ---
+  const missingTerms = new Set<string>();
+
   // Simple markdown-like rendering
   const formatContent = (text: string): string => {
     let formatted = text;
@@ -75,6 +78,12 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
         const termKey = part.slice(2, -2).toLowerCase().trim();
         const definition = (glossaryData as any)[termKey];
         const currentIndex = globalGlossaryTermIndex++;
+
+        // --- NEW: If definition is missing, add to our list ---
+        if (!definition) {
+          missingTerms.add(part.slice(2, -2).trim());
+        }
+        
         return (
           <GlossaryTerm
             key={index}
@@ -290,7 +299,7 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
           const [headerRow, ...bodyRows] = tableData;
           return (
             <div key={bIndex} className="my-6">
-              <table className="border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
+              <table className="table-auto border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
                 <thead>
                   <tr className="bg-blue-100 dark:bg-blue-600/50">
                     {headerRow.map((cell, cellIndex) => (
@@ -314,7 +323,7 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
                           key={cellIndex}
                           className="border border-gray-300 dark:border-gray-600 py-3 text-gray-700 dark:text-gray-300"
                         >
-                          {renderTableCell(cell)}
+                          <span className="px-4">{renderTableCell(cell)}</span>
                         </td>
                       ))}
                     </tr>
@@ -438,6 +447,23 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
           </div>
         );
       })}
+
+      {/* --- NEW: Missing Definitions Debug Section --- */}
+      {missingTerms.size > 0 && (
+        <div className="mt-12 p-6 border-2 border-dashed border-red-300 bg-red-50 dark:bg-red-900/10 rounded-xl">
+          <h3 className="text-lg font-bold text-red-600 dark:text-red-400 mb-2 flex items-center gap-2">
+            <span>ตรวจพบ {missingTerms.size} คำที่ไม่ได้ใส่ความหมาย</span>
+          </h3>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+            ทางทีมงานจะดำเนินการแก้ไขเร็วๆ นี้
+          </p>
+          <div className="bg-white dark:bg-gray-900 p-4 rounded border border-red-200 dark:border-red-800">
+            <code className="text-red-500 block whitespace-pre-wrap">
+              {Array.from(missingTerms).join(", ")}
+            </code>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
