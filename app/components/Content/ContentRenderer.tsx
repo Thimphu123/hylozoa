@@ -137,6 +137,10 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
             <video
               src={embed.path}
               controls
+              loop={embed.loop}
+              autoPlay={embed.autoplay}
+              muted={embed.muted}
+              playsInline
               className="w-full h-full"
             >
               Your browser does not support the video tag.

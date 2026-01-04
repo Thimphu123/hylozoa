@@ -18,38 +18,15 @@ interface ModelViewerProps {
 
 function Model({ modelPath, annotations }: ModelViewerProps) {
   const groupRef = useRef<Group>(null);
-  const [hasError, setHasError] = useState(false);
-  
-  // Load model with error handling
-  let gltf: any = null;
-  try {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    gltf = useGLTF(modelPath);
-  } catch (error) {
-    if (!hasError) {
-      setHasError(true);
-      console.warn(`Model not found at ${modelPath}, using placeholder`);
-    }
-  }
+  // `useGLTF` must be called as a hook inside a component that is rendered
+  // within a Suspense boundary. The parent component (`ModelViewer`) will
+  // check whether the model file exists before rendering this component to
+  // avoid runtime errors.
+  const gltf: any = useGLTF(modelPath);
 
   return (
     <group ref={groupRef}>
-      {gltf && !hasError ? (
-        <primitive object={gltf.scene} />
-      ) : (
-        // Placeholder geometry when model is not available
-        <group>
-          <mesh>
-            <boxGeometry args={[2, 2, 2]} />
-            <meshStandardMaterial color="orange" wireframe />
-          </mesh>
-          <Html center>
-            <div className="bg-black bg-opacity-75 text-white px-3 py-2 rounded text-sm">
-              Model placeholder
-            </div>
-          </Html>
-        </group>
-      )}
+      <primitive object={gltf.scene} />
       
       {/* Render annotations */}
       {annotations?.map((annotation, index) => (
@@ -71,6 +48,7 @@ function Model({ modelPath, annotations }: ModelViewerProps) {
 
 export default function ModelViewer({ modelPath, annotations }: ModelViewerProps) {
   const [isInView, setIsInView] = useState(false);
+  const [modelAvailable, setModelAvailable] = useState<boolean | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -93,6 +71,36 @@ export default function ModelViewer({ modelPath, annotations }: ModelViewerProps
     return () => observer.disconnect();
   }, []);
 
+  // When the viewer becomes visible, check whether the model file is reachable
+  useEffect(() => {
+    if (!isInView) return;
+    let cancelled = false;
+    const check = async () => {
+      try {
+        const res = await fetch(modelPath, { method: "HEAD" });
+        if (!cancelled) {
+          setModelAvailable(res.ok);
+          if (!res.ok) console.warn(`Model not found at ${modelPath} (HEAD ${res.status})`);
+        }
+      } catch (err) {
+        try {
+          const res2 = await fetch(modelPath, { method: "GET" });
+          if (!cancelled) {
+            setModelAvailable(res2.ok);
+            if (!res2.ok) console.warn(`Model not found at ${modelPath} (GET ${res2.status})`);
+          }
+        } catch (err2) {
+          if (!cancelled) {
+            setModelAvailable(false);
+            console.warn(`Model fetch failed for ${modelPath}`, err2);
+          }
+        }
+      }
+    };
+    check();
+    return () => { cancelled = true; };
+  }, [isInView, modelPath]);
+
   return (
     <div
       ref={containerRef}
@@ -100,7 +108,7 @@ export default function ModelViewer({ modelPath, annotations }: ModelViewerProps
       role="img"
       aria-label="3D biological model viewer"
     >
-      {isInView ? (
+      {isInView && modelAvailable !== false ? (
         <Canvas
           className="w-full h-full"
           gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
@@ -128,6 +136,12 @@ export default function ModelViewer({ modelPath, annotations }: ModelViewerProps
             maxDistance={10}
           />
         </Canvas>
+      ) : modelAvailable === false ? (
+        <div className="flex items-center justify-center h-full">
+          <div className="text-gray-600 dark:text-gray-400 text-sm text-center">
+            Model not found. If you placed the file in `public/models/`, ensure the path is `/models/your-file.glb`.
+          </div>
+        </div>
       ) : (
         <div className="flex items-center justify-center h-full">
           <div className="text-gray-600 dark:text-gray-400" role="status">

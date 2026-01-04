@@ -18,6 +18,9 @@ export interface MediaEmbed {
   description?: string;
   annotations?: Annotation[]; // For models
   width?: "small" | "medium" | "large" | "full"; // For inline sizing
+  loop?: boolean; // Add this for videos
+  autoplay?: boolean; // Optional: you might want this too
+  muted?: boolean; // Optional: autoplay usually requires muted
 }
 
 export interface Section {
