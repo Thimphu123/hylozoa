@@ -49,8 +49,13 @@ export default function AboutPage(): JSX.Element {
           </h2>
 
           <div className="mt-4 flex items-center gap-4">
-            {/* TODO: เปลี่ยนเป็นรูป/ข้อมูลจริงของคุณ */}
-            <div className="h-20 w-20 rounded-full bg-gray-200 dark:bg-gray-800 flex-shrink-0" />
+            <div className="h-20 w-20 rounded-full bg-gray-200 dark:bg-gray-800 flex-shrink-0">
+              <img
+                src="/assets/profile.jpg"
+                alt="เย็นศิระ พยอมพันธ์"
+                className="h-20 w-20 rounded-full object-cover"
+              />
+            </div>
             <div>
               <p className="font-semibold text-gray-900 dark:text-gray-100">เย็นศิระ พยอมพันธ์</p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
