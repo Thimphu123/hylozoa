@@ -293,7 +293,7 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
   const blocks = content.split(/\n\n+/);
 
   return (
-    <div className="w-full mb-6 text-gray-700 dark:text-gray-300 leading-relaxed text-base" style={{ maxWidth: '100%' }}>
+    <div className="w-full text-gray-700 dark:text-gray-300 leading-relaxed text-base min-w-0 overflow-x-hidden">
       {blocks.map((block, bIndex) => {
         const trimmedBlock = block.trim();
 
@@ -341,37 +341,41 @@ export default function ContentRenderer({ content, media = [] }: ContentRenderer
           const [headerRow, ...bodyRows] = tableData;
           return (
             <div key={bIndex} className="my-6">
-              <table className="table-auto border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
-                <thead>
-                  <tr className="bg-blue-100 dark:bg-blue-600/50">
-                    {headerRow.map((cell, cellIndex) => (
-                      <th
-                        key={cellIndex}
-                        className="border border-gray-300 dark:border-gray-600 py-3 text-center font-semibold text-gray-600 dark:text-gray-300"
-                      >
-                        {renderTableHeaderCell(cell)}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {bodyRows.map((row, rowIndex) => (
-                    <tr
-                      key={rowIndex}
-                      className="hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors"
-                    >
-                      {row.map((cell, cellIndex) => (
-                        <td
-                          key={cellIndex}
-                          className="border border-gray-300 dark:border-gray-600 py-3 text-gray-700 dark:text-gray-300"
+              <div className="w-full overflow-x-auto">
+                <div className="inline-block align-top">
+                  <table className="w-full table-auto border-collapse border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 rounded-lg shadow-sm">
+                    <thead>
+                      <tr className="bg-blue-100 dark:bg-blue-600/50">
+                        {headerRow.map((cell, cellIndex) => (
+                          <th
+                            key={cellIndex}
+                            className="border border-gray-300 dark:border-gray-600 py-3 text-center font-semibold text-gray-600 dark:text-gray-300 px-4 break-words whitespace-normal"
+                          >
+                            {renderTableHeaderCell(cell)}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {bodyRows.map((row, rowIndex) => (
+                        <tr
+                          key={rowIndex}
+                          className="hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors"
                         >
-                          <span className="px-4">{renderTableCell(cell)}</span>
-                        </td>
+                          {row.map((cell, cellIndex) => (
+                            <td
+                              key={cellIndex}
+                              className="border border-gray-300 dark:border-gray-600 py-3 text-gray-700 dark:text-gray-300 px-4 break-words whitespace-normal"
+                            >
+                              {renderTableCell(cell)}
+                            </td>
+                          ))}
+                        </tr>
                       ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           );
         }

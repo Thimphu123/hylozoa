@@ -32,7 +32,7 @@ export default async function ChapterPage({
     currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
 
   return (
-    <div className="lg:pl-64 w-full">
+    <div className="lg:pl-64 w-screen lg:w-full">
       <div className="mx-auto lg:mx-0 px-4 lg:px-6 py-8 max-w-7xl lg:ml-0">
         <div className="mb-8 overflow-x-hidden">
           <Link
@@ -54,7 +54,7 @@ export default async function ChapterPage({
 
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 items-start">
           {/* Main content */}
-          <div className="flex-1 min-w-0 w-full overflow-x-hidden">
+          <div className="flex-1 min-w-0 w-full overflow-visible">
             <div className="space-y-12">
               {chapter.sections && chapter.sections.length > 0 ? (
                 chapter.sections.map((section, index) => (
